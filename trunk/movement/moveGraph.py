@@ -17,17 +17,25 @@ class MoveGraph :
 		self.g.addEdge("press", "click", "up")
 		self.g.addEdge("click", "press", "down")
 		self.g.addEdge("press", "press", "down")
-		self.g.addEdge("press", "move", "down")
+		self.g.addEdge("press", "move", "down", "slide")
 		self.g.addEdge("move", "move", "down")
 		self.g.addEdge("move", "trash", "up")
 		self.g.addEdge("trash", "press", "down")
-		self.g.addEdge("press", "press_long", "down")
+		self.g.addEdge("press", "press_long", "down", "time")
 		self.g.addEdge("press_long", "press_long", "down")
 		self.g.addEdge("press_long", "click_long", "up")
 		self.g.addEdge("click_long", "press", "down")
+		
+		self.g.initCurrentNode("press")
 				
 	def getGraph(self):
 		return self.g
 	
 	def printGraph(self):
 		self.g.printGraph()
+	
+	def getCurrentNode(self):
+		return self.g.getCurrentNode();
+	
+	def moveCurrentNode(self, label, condition = ""):
+		self.g.changeCurrentNode(label, condition)
