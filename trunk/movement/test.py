@@ -1,8 +1,9 @@
 #from moveGraph import *
 from moveGraph import *
 from moves import *
-# g = MoveGraph(1)
-# 
+from MoveCenter.MoveNotificationCenter import *
+
+# utilisation d'un Moves (surcouche aux MoveGraphe permettant l'interpretation des mouvements)
 g = Moves(1, 10, 10)
 g.addMove("down", 10, 10)
 print g.getCurrentNode().getValue()
@@ -14,6 +15,18 @@ print g.getCurrentNode().getValue()
 g.addMove("up")
 print g.getCurrentNode().getValue()
 
+
+# Singleton MoveNotificationCenter : utilisation
+
+center = MoveNotificationCenter()
+center.handleNotification()
+center.handleNotification()
+center.handleNotification()
+center.handleNotification()
+center.handleNotification()
+center.handleNotification()
+
+# Utilisation d'un moveGraph a vide
 # g = MoveGraph(1)
 # g.printGraph()
 # print

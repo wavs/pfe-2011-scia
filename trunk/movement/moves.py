@@ -1,4 +1,5 @@
 from moveGraph import * 
+from MoveCenter.MoveNotificationCenter import *
 
 class Moves:
 	def __init__(self, nb, x = 0, y = 0):
@@ -17,7 +18,7 @@ class Moves:
 	def getCoordonate(self):
 		return (self.coordx, self.coordy, self.coordxo, self.coordyo, self.t)
 
-	def addMove(self,label, x = -1, y = -1):
+	def addMove(self, label, x = -1, y = -1):
 		self.moveLabel = label
 		self.history.append((x, y))
 		if len(self.history) >= 25:
@@ -27,6 +28,11 @@ class Moves:
 		self.isLongTime()
 		self.isUp()
 		self.g.moveCurrentNode(self.moveLabel, self.moveCondition)
+		self.sendNotificationMove()
+
+	def sendNotificationMove(self):
+		center = MoveNotificationCenter()
+		center.sendNotification(self.g.getCurrentNode().getValue())
 
 	def getCurrentNode(self):
 		return self.g.getCurrentNode()
