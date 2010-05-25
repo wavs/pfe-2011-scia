@@ -1,0 +1,68 @@
+=============================================
+=============================================
+===== OPEN LOG in log.txt
+===== ON Tue May 25 13:49:12 2010
+=============================================
+=============================================
+
+
+[RESUME]  Clock  	: Clock initialized
+[RESUME]  GlobeEngine	: DEBUG defined.
+[RESUME]  GlobeEngine	: NDEBUG not defined.
+[RESUME]  Extensions	: Shaders supported and loaded.
+[RESUME]  WindowOglSDL	: Creation of the SDL-GL window with resolution 800*600
+[RESUME]  InputMng 	: New listener (GameMng) with priority 15
+[RESUME]  TextureMng	: TextureMng created (ErrorTexture GLId : 1)
+[RESUME]  MaterialMng	: New material(0) loaded : error.txt
+[RESUME]  MaterialMng	: NoneMaterial(1) loaded
+[RESUME]  MaterialMng	: New material(2) loaded : black.txt
+[RESUME]  FontMng	: FontMng Initialized
+[RESUME]  Font    	: New Font loaded : candy.ttf with size of 50
+[RESUME]  InputMng 	: New listener (InterfaceMng) with priority 100
+[RESUME]  Font    	: New Font loaded : arial.ttf with size of 32
+[RESUME]  State Handler	: Start GlobeEngine with state CINEMATIC
+[RESUME]  State Handler	: Loading finished, begin state CINEMATIC
+[RESUME]  MaterialMng	: New material(5) loaded : black.txt
+[RESUME]  Font    	: New Font loaded : candy.ttf with size of 100
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 5
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 6
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 1
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 4
+[RESUME]  ProgramMng	: Shader Loaded for material type WATER
+[RESUME]  State Handler	: Launch loading of state MENU
+[RESUME]  CinematicMng	: Leave current cinematic
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 2
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 3
+[RESUME]  State Handler	: Loading finished, begin state MENU
+[RESUME]  MaterialMng	: New material(5) loaded : red.txt
+[RESUME]  MaterialMng	: New material(6) loaded : black.txt
+[RESUME]  MaterialMng	: New material(7) loaded : anim.txt
+[RESUME]  MaterialMng	: New material(10) loaded : butt.txt
+[RESUME]  MaterialMng	: New material(11) loaded : butt_on.txt
+[RESUME]  MaterialMng	: New material(12) loaded : butt_click.txt
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 7
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 8
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 1
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 7
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 4
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 13
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 10
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 9
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 11
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 12
+[ERROR]   Execute	: cmd1 : Unknow command with no argument
+[RESUME]  State Handler	: Launch loading of state QUIT
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 2
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 3
+[RESUME]  State Handler	: Loading finished, begin state QUIT
+[RESUME]  TriangleBag	: Creation of new vertexDrawer for material : 4
+[RESUME]  InputMng 	: Unregister listener (GameMng) with priority 15
+[RESUME]  InputMng 	: Unregister listener (InterfaceMng) with priority 100
+
+
+=============================================
+=============================================
+===== CLOSE LOG
+===== ON Tue May 25 13:49:21 2010
+=============================================
+=============================================

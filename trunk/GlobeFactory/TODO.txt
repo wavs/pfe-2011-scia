@@ -1,0 +1,2 @@
+- shaders (envoyer des parametres)
+- gerer l'aspect transparent des texture en le lisant dans les materiaux
