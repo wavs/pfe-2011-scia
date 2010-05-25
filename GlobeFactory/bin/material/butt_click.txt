@@ -1,0 +1,4 @@
+type=SIMPLE_COLOR
+r=0.1f
+g=0.1f
+b=0.1f

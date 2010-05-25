@@ -1,0 +1,5 @@
+type=ANIMATED
+frameCount=2
+frameTime=0.2f
+0=red.txt
+1=black.txt

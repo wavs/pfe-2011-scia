@@ -1,0 +1,28 @@
+<interface>
+	<button material='butt.txt' material_on='butt_on.txt' material_click='butt_click.txt' text="[TEST1]" cmd='cmd1' >
+		<position x=0 y=0 />
+		<size x=150 y=75 />
+		<color r=1.0 g=1.0 b=1.0 />
+		<color_on r=1.0 g=1.0 b=1.0 />
+		<color_click r=1.0 g=1.0 b=1.0 />
+		<text_color_on r=0.5 g=0.5 b=0.5 />
+		<text_color_click r=0.5 g=0.5 b=0.5 />
+	</button>
+	<button text="[TEST2]" cmd='cmd2' >
+		<position x=50 y=50 />
+		<size x=150 y=75 />
+		<color r=1.0 g=1.0 b=0.0 />
+		<color_on r=0.603 g=0.803 b=0.196 />
+		<color_click r=0.678 g=1.0 b=0.184 />
+	</button>
+	<window bar_size=20.0 >
+		<position x=20 y=110 />
+		<size x=200 y=200 />
+		<childs>
+			<combo_box state=false >
+				<position x=50 y=50 />
+				<size x=15 y=15 />
+			</combo_box>
+		</childs>
+	</window>
+</interface>
