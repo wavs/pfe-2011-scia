@@ -1,18 +1,21 @@
-#from moveGraph import *
-from GestureCenter.Gestures import *
+from GestureCenter.GestureCenter import *
 from GestureNotificationCenter.GestureNotificationCenter import *
 
 # utilisation d'un Moves (surcouche aux MoveGraphe permettant l'interpretation des mouvements)
-g = Gestures(1, 10, 10)
-g.addMove("down", 10, 10)
+g = GestureCenter()
+g.newCoordonate(1, "down", 10, 10)
+g.newCoordonate(2, "down", 10, 10)
+g.newCoordonate(3, "down", 10, 10)
+g.newCoordonate(3, "down", 20, 10)
+
 #print g.getCurrentNode().getValue()
-g.addMove("down", 12, 12)
+g.newCoordonate(1, "down", 12, 12)
 #print g.getCurrentNode().getValue()
-g.addMove("down", 17, 18)
-g.addMove("down", 19, 21)
+g.newCoordonate(1, "down", 17, 18)
+g.newCoordonate(1, "down", 19, 21)
 #print g.getCoordonate()
 #print g.getCurrentNode().getValue()
-g.addMove("up")
+g.newCoordonate(1, "up")
 #print g.getCurrentNode().getValue()
 
 
@@ -25,6 +28,9 @@ center.handleNotification()
 center.handleNotification()
 center.handleNotification()
 center.handleNotification()
+center.handleNotification()
+center.handleNotification()
+
 
 # Utilisation d'un moveGraph a vide
 # g = MoveGraph(1)
