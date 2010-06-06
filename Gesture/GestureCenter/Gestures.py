@@ -5,7 +5,8 @@ from GestureNotificationCenter.GestureNotificationCenter import *
 
 
 class Gestures:
-	def __init__(self, nb, x = 0, y = 0):
+	def __init__(self, nb, id, x = 0, y = 0):
+		self.id = id
 		self.coordx = x
 		self.coordy = y
 		self.coordxo = -1
@@ -35,7 +36,7 @@ class Gestures:
 
 	def sendNotificationMove(self):
 		center = MoveNotificationCenter()
-		center.sendNotification(Notification(self.g.getCurrentNode().getValue(), self.coordx, self.coordy, self.coordxo, self.coordyo))
+		center.sendNotification(Notification(self.g.getCurrentNode().getValue(), self.coordx, self.coordy, self.coordxo, self.coordyo, self.id))
 
 	def getCurrentNode(self):
 		return self.g.getCurrentNode()

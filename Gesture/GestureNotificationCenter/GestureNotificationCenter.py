@@ -30,6 +30,6 @@ class MoveNotificationCenter (object):
 	def handleNotification(self):
 		if (self.notifications.isEmpty() == False):
 			notif = self.notifications.popElt()
-			print notif.getLabel()
+			print notif.getAssociateGestureId(), notif.getLabel()
 		else:
 			print "empty"
