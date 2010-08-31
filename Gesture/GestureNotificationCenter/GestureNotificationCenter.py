@@ -13,6 +13,9 @@ class MoveNotificationCenter (object):
 			self.instance = object.__new__(self)
 		return self.instance
 	
+	def isAlive(self):
+		return "Oui"
+	
 	def newNotifId(self):
 		return self.ticketId + 1;
 		
@@ -30,6 +33,6 @@ class MoveNotificationCenter (object):
 	def handleNotification(self):
 		if (self.notifications.isEmpty() == False):
 			notif = self.notifications.popElt()
-			print notif.getAssociateGestureId(), notif.getLabel()
+			return notif
 		else:
-			print "empty"
+			return None

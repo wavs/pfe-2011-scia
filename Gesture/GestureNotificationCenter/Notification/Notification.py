@@ -8,6 +8,12 @@ class Notification:
 		self.y0 = y0
 		self.id = id
 
+	def getxy(self):
+		return (self.x, self.y)
+	
+	def getx0y0(self):
+		return (self.x0, self.y0)
+
 	def setIdNotification(self, newid):
 		self.idNotification = newid
 
