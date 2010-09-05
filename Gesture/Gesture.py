@@ -37,10 +37,8 @@ def start_WidgetCenter(w_center, center):
 	while (True):
 		notif = center.handleNotification()
 		w_center.examinNotif(notif)
-		#if notif is None:
-			#print ""#"No notification"
-		#else :
-			#print notif.getAssociateGestureId(), notif.getLabel()
+		if not notif is None:
+			print notif.getAssociateGestureId(), notif.getLabel()
 
 thread_a = threading.Thread(None,start_GestureCenter, None, (g_center,center,))
 thread_b = threading.Thread(None,start_WidgetCenter, None, (w_center,center,))
