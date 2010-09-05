@@ -13,7 +13,7 @@ class GestureCenter:
 		typ = l[0]
 		x = -1
 		y = -1
-		if (length(l) > 2):
+		if (len(l) > 2):
 			x = int(l[2])
 			y = int(l[3])
 		self.newCoordonate(i, typ, x, y)
