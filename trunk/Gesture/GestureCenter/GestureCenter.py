@@ -8,6 +8,17 @@ class GestureCenter:
 	def addGesture(self, id, x, y):
 		self.gestureList.append(Gestures(1, id, x, y))
 
+	def addNewInformation(self, l):
+		i = int(l[1])
+		typ = l[0]
+		x = -1
+		y = -1
+		if (length(l) > 2):
+			x = int(l[2])
+			y = int(l[3])
+		self.newCoordonate(i, typ, x, y)
+		
+
 	def newCoordonateForGesture(self, n, label, x, y):
 		self.gestureList[n].addMove(label, x, y)
 
