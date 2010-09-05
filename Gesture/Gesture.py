@@ -26,8 +26,9 @@ def start_GestureCenter(g_center, center):
 		l = data.split(":")
 		if (l[0] == "close"):
 			flag = 0
+		else:
+			g_center.addNewInformation(l)
 		s.send('OK')
-		print l
 	s.close()
 	
 		
