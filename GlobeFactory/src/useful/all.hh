@@ -43,10 +43,6 @@
 #include "user_input.hh"
 #include "vector.hh"
 #include "bounding_box.hh"
-#include "xml_tree.hh"
-#include "xml_node.hh"
-#include "xml_loader.hh"
-#include "xml_helper.hh"
 #include "manager_loader.hh"
 #include "animator.hh"
 
