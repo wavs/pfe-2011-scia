@@ -2,20 +2,26 @@
 
 #include <iostream>
 #include <cstdio>
-#include "OpenCV/cv.h"
-#include "OpenCV/highgui.h"
-
-#include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <netdb.h>
 #include <string.h>
 
+
+#include "OpenCV/cv.h"
+#include "OpenCV/highgui.h"
+
+
+
 #define PORT        5554
 /* REPLACE with your server machine name*/
-#define HOST        "Exky.local"
+#define HOST        "localhost"
+#define CLOSE		"close"
+#define MSG_SIZE	100
 #define DIRSIZE     8192
+#define BACKLOG 1
+
 
 using namespace std;
 using namespace cv;
@@ -24,13 +30,15 @@ using namespace cv;
 ////////////////////////////////////////////////////////////////////////////////
 
 // creating the server component
-#define BACKLOG 10
+
 char hostname[100];
 char    dir[DIRSIZE];
 int sd;
 int conn;
-struct sockaddr_in sin;
-struct sockaddr_in pin;
+int size_recv;
+char message[100];
+struct sockaddr_in ssin;
+struct sockaddr_in ppin;
 struct hostent *hp;
 
 
@@ -61,46 +69,86 @@ CvMemStorage* storage = 0; // temporary storage
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 // creating the server
-
-strcpy(hostname,HOST);
-
-/* go find out about the desired host machine */
-if ((hp = gethostbyname(hostname)) == 0) {
-    perror("gethostbyname");
-    return(1);
-}
-
-/* fill in the socket structure with host information */
-memset(&pin, 0, sizeof(pin));
-pin.sin_family = AF_INET;
-pin.sin_addr.s_addr = ((struct in_addr *)(hp->h_addr))->s_addr;
-pin.sin_port = htons(PORT);
-
-/* grab an Internet domain socket */
-if ((sd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
-    perror("socket");
-    return(1);
-}
-
-/* connect to PORT on HOST */
-if (bind(sd,(struct sockaddr *)  &pin, sizeof(pin)) == -1) {
-    perror("connect");
-    return(1);
-}
-
-if (listen(sd, BACKLOG) == -1)
+int init_server(void)
 {
- perror("couldn't not connect");
-		return(1);
+	strcpy((char*)hostname, (const char*)HOST);
+	
+	
+	/* go find out about the desired host machine */
+	
+	 if ((hp = gethostbyname(hostname)) == 0) {
+	 perror("gethostbyname");
+	 return(-1);
+	 }
+	
+	/* fill in the socket structure with host information */
+	
+	 memset(&ppin, 0, sizeof(ppin));
+	 ppin.sin_family = AF_INET;
+	 ppin.sin_addr.s_addr = ((struct in_addr *)(hp->h_addr))->s_addr;
+	 ppin.sin_port = htons(PORT);
+	 
+	 /* grab an Internet domain socket */
+	
+	 if ((sd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
+	 perror("socket");
+	 return(-1);
+	 }
+	
+	
+	/* connect to PORT on HOST */
+	
+	 if (bind(sd,(struct sockaddr *)  &ppin, sizeof(ppin)) == -1) {
+	 perror("connect");
+	 return(-1);
+	 }
+	 
+	 if (listen(sd, BACKLOG) == -1)
+	 {
+	 perror("couldn't not connect");
+	 return(-1);
+	 }
+	 
+	 if ((conn = accept(sd, NULL, NULL) == -1))
+	 {
+	 perror("accept failed");
+	 return(-1);
+	 }
+	
+	memset(&message, 0, MSG_SIZE);
+	size_recv = recv(conn, message, MSG_SIZE, MSG_PEEK);
+	if ( size_recv == -1)
+	{
+			 perror("didn't received message");
+			 return (-1);
+	}
+	else if ( size_recv == 0)
+	{
+		perror("the peer closed the connexion");
+		return (-1);
+	}
+	return (0);
+	 	
+}
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+void close_connection()
+{
+	
+	/// close the socket and send message
+	if (send(conn, (const void*)CLOSE, 5, MSG_EOR) == -1)
+	{
+		perror("Cannot send CLOSE message");
+		close(conn);
+	}
+	
+	recv(conn, message, MSG_SIZE, MSG_PEEK);
+	close(conn);
+	return;
 }
 
-if ((conn = accept(sd, NULL, NULL) == -1)
-	{
-		perror("accept failed");
-		return(1);
-	}
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
 
 void  update_mhi( IplImage* img, IplImage* dst, int diff_threshold )
 {
@@ -260,7 +308,7 @@ int main( int argc, const char** argv )
 
     CascadeClassifier cascade, nestedCascade;
     double scale = 1;
-
+	
     for( int i = 1; i < argc; i++ )
     {
         if( cascadeOpt.compare( 0, cascadeOptLen, argv[i], cascadeOptLen ) == 0 )
@@ -289,6 +337,14 @@ int main( int argc, const char** argv )
     IplImage* motion = 0;
 
 
+	// init server bitch!
+	
+	if (init_server() == -1)
+	{
+		perror("init server failed");
+		return (-1);
+	}
+
     if( !cascade.load( cascadeName ) )
     {
         cerr << "ERROR: Could not load classifier cascade" << endl;
@@ -296,7 +352,10 @@ int main( int argc, const char** argv )
             "   [--nested-cascade[=\"nested_cascade_path\"]]\n"
             "   [--scale[=<image scale>\n"
             "   [filename|camera_index]\n" ;
-		/// close the socket and send message
+		
+		close_connection();
+
+		
 		// send close // wait for answer before close or if -1 close
 		
         return -1;
@@ -333,7 +392,10 @@ int main( int argc, const char** argv )
                 motion->origin = iplImg->origin;
             }
 
-
+			// send
+			
+			// recv
+			
             if( frame.empty() )
                 break;
             if( iplImg->origin == IPL_ORIGIN_TL )
@@ -346,9 +408,10 @@ int main( int argc, const char** argv )
             if( waitKey( 10 ) >= 0 )
                 goto _cleanup_;
         }
-
+		close_connection();
         waitKey(0);
 _cleanup_:
+		// send close // wait for answer before close or if -1 close
         cvReleaseCapture( &capture );
     }/*
     else
