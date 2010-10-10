@@ -33,8 +33,9 @@ def start_GestureCenter(g_center, center):
 		if (l[0] == "close"):
 			flag = 0
 		else:
-			if length(l) == 4:
+			if len(l) == 4:
 				g_center.addNewInformation(l)
+		g_center.printGestures()
 		s.send('OK')
 	s.close()
 	
@@ -46,7 +47,7 @@ def start_WidgetCenter(w_center, center):
 		notif = center.handleNotification()
 		widget = w_center.examinNotif(notif)
 		if not notif is None:
-			print notif.getAssociateGestureId(), notif.getLabel()
+			#print notif.getAssociateGestureId(), notif.getLabel()
 			if not widget is None:
 				widget.setNotif(notif)
 			
