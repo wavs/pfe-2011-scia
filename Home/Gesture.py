@@ -1,22 +1,28 @@
+from Board import *
 from GestureCenter.GestureCenter import *
 from GestureNotificationCenter.GestureNotificationCenter import *
 from WidgetCenter.WidgetCenter import *
 import time
 import threading
 import socket
+import time
+from os import *
 
 HOST = 'localhost'
-PORT = 5554
-
+PORT = 5551
 
 i = 0;
+
+w = Widget(0, 0, 0, 100, 100, 1)
 
 g_center = GestureCenter()
 w_center = WidgetCenter()
 center = MoveNotificationCenter()
-
+w_center.subscribeNewWidget(w)
+		
 
 def start_GestureCenter(g_center, center):
+	time.sleep(2)
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((HOST, PORT))
 	s.send("CONNEXION")
@@ -27,20 +33,31 @@ def start_GestureCenter(g_center, center):
 		if (l[0] == "close"):
 			flag = 0
 		else:
-			g_center.addNewInformation(l)
+			if length(l) == 4:
+				g_center.addNewInformation(l)
 		s.send('OK')
 	s.close()
 	
 		
 
 def start_WidgetCenter(w_center, center):
+	time.sleep(2)
 	while (True):
 		notif = center.handleNotification()
-		w_center.examinNotif(notif)
+		widget = w_center.examinNotif(notif)
 		if not notif is None:
 			print notif.getAssociateGestureId(), notif.getLabel()
+			if not widget is None:
+				widget.setNotif(notif)
+			
+b = os.fork()
+if b == 0:
+	os.system("python /Users/Alex/Documents/Programation/pfe/pfe-2011-scia/test/servertest.py")
+else:
+	thread_a = threading.Thread(None,start_GestureCenter, None, (g_center,center,))
+	thread_b = threading.Thread(None,start_WidgetCenter, None, (w_center,center,))
 
-thread_a = threading.Thread(None,start_GestureCenter, None, (g_center,center,))
-thread_b = threading.Thread(None,start_WidgetCenter, None, (w_center,center,))
-thread_a.start()
-thread_b.start()
+	thread_a.start()
+	thread_b.start()
+	board = Board(800, 600, "Test")
+	board.InitBoard()
