@@ -19,6 +19,9 @@ class Gestures:
 		self.moveLabel = ""
 		self.moveCondition = ""
 	
+	def printGesture(self):
+		print self.coordx, self.coordy, self.coordxo, self.coordyo, self.g.getCurrentNode().getValue()
+	
 	def getCoordonate(self):
 		return (self.coordx, self.coordy, self.coordxo, self.coordyo, self.t)
 

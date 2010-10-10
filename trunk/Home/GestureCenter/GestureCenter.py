@@ -1,22 +1,41 @@
 from Gestures import *
 from math import *
+
 class GestureCenter:
 	
 	def __init__(self):
 		self.gestureList =[] 
 
+
+	def printGestures(self):
+		print "NB : ", len(self.gestureList)
+		for g in self.gestureList:
+			print "GRAPH ", g.getId(), g.printGesture()
+	
 	def addGesture(self, id, x, y):
 		self.gestureList.append(Gestures(1, id, x, y))
 
 	def addNewInformation(self, l):
 		i = int(l[1])
 		typ = l[0]
-		x = -1
-		y = -1
+		x = -1.
+		y = -1.
 		if (len(l) > 2):
-			x = int(l[2])
-			y = int(l[3])
-		self.newCoordonate(i, typ, x, y)
+		 	x = int(l[2])
+		 	y = int(l[3])
+		d = 0.
+		maxd = -1.
+		if len(self.gestureList) == 0:
+			self.newCoordonate(i, typ, x, y)
+		else:
+			for g in self.gestureList:
+				(sx, sy, sx0, sy0, t) = g.getCoordonate()
+				g.printGesture()
+				d = self.distance(x, y, sx, sy)
+				if d <= maxd or maxd == -1:
+					maxd = d
+					i = g.getId()
+			self.newCoordonate(i, typ, x, y)
 		
 
 	def newCoordonateForGesture(self, n, label, x, y):
