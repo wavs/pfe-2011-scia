@@ -2,7 +2,7 @@ from Widget.Widget import *
 
 class WidgetCenter:
 	
-	widgetList =[] 
+	widgetList = [] 
 	
 	def __new__(self):
 		if self.instance is None:
@@ -10,7 +10,14 @@ class WidgetCenter:
 		return self.instance
 	
 	def subscribeNewWidget(self, widget):
-		self.widgetList.push(widget)
+		self.widgetList.append(widget)
+
+	def printWidgetList(self):
+		for w in self.widgetList:
+			w.printWidget()
+
+	def getWidgetList(self):
+		return self.widgetList
 
 	def deleteWidget(self, widget):
 		i = 0
@@ -25,10 +32,15 @@ class WidgetCenter:
 	def examinNotif(self, notif):
 		widgetNotified = None
 		maxZ = 0
-		for widget in self.widgetList:
-			t = widget.clickInsideWidget(notif.getxy()[0], notif.getxy()[1])
-			if (t[0] == True):
-				if (maxZ < t[1]):
-					widgetNotified = widget
-					maxZ = t[1]
+		if not notif is None:
+			if notif.getLabel() == "up":
+				for widget in self.widgetList:
+					widget.defaultColor()
+		if not notif is None:
+			for widget in self.widgetList:
+				t = widget.clickInsideWidget(notif.getxy()[0], notif.getxy()[1])
+				if (t[0] == True):
+					if (maxZ <= t[1]):
+						widgetNotified = widget
+						maxZ = t[1]
 		return widgetNotified

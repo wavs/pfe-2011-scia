@@ -12,7 +12,7 @@ class Gestures:
 		self.coordxo = -1
 		self.coordyo = -1
 		self.t = 0
-		self.pixelMod = 5
+		self.pixelMod = 1
 		self.timeLimit = 25
 		self.g = GestureGraph(nb)
 		self.history = []
@@ -37,6 +37,9 @@ class Gestures:
 	def sendNotificationMove(self):
 		center = MoveNotificationCenter()
 		center.sendNotification(Notification(self.g.getCurrentNode().getValue(), self.coordx, self.coordy, self.coordxo, self.coordyo, self.id))
+
+	def getId(self):
+		return self.id
 
 	def getCurrentNode(self):
 		return self.g.getCurrentNode()
@@ -65,6 +68,7 @@ class Gestures:
 				self.moveCondition = "time"
 			else:
 				self.moveCondition = ""
+
 	def getLastPos(self):
 		if (len(self.history) > 1):
 			return self.history[len(self.history) - 1]
