@@ -1,0 +1,210 @@
+TWidgetEditorCore
+v7
+r0
+t306344151.806505
+cCheck dependencies
+cProcessPCH /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch.gch WidgetEditorCore_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WidgetEditorCore.o /Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/Interfacer.o /Users/wavs/Desktop/WidgetEditorCore/Interfacer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIPoint.o /Users/wavs/Desktop/WidgetEditorCore/WIPoint.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WISize.o /Users/wavs/Desktop/WidgetEditorCore/WISize.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIBound.o /Users/wavs/Desktop/WidgetEditorCore/WIBound.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BC1384E0000000000B37440
+t1270954062
+s11760704
+
+N/Users/wavs/Desktop/WidgetEditorCore/Interfacer.h
+c000000004C9235F30000000000000110
+t1284650483
+s272
+i<Foundation/Foundation.h>
+
+N/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m
+c000000004C92389500000000000002B8
+t1284651157
+s696
+i"Interfacer.h"
+
+N/Users/wavs/Desktop/WidgetEditorCore/WIBound.h
+c000000004C9239520000000000000176
+t1284651346
+s374
+i<Foundation/Foundation.h>
+i"WIPoint.h"
+i"WISize.h"
+
+N/Users/wavs/Desktop/WidgetEditorCore/WIBound.m
+c000000004C92393F00000000000000EB
+t1284651327
+s235
+i"WIBound.h"
+
+N/Users/wavs/Desktop/WidgetEditorCore/WIPoint.h
+c000000004C9238830000000000000145
+t1284651139
+s325
+i<Foundation/Foundation.h>
+
+N/Users/wavs/Desktop/WidgetEditorCore/WIPoint.m
+c000000004C92388D00000000000000E3
+t1284651149
+s227
+i"WIPoint.h"
+
+N/Users/wavs/Desktop/WidgetEditorCore/WISize.h
+c000000004C9238790000000000000155
+t1284651129
+s341
+i<Foundation/Foundation.h>
+
+N/Users/wavs/Desktop/WidgetEditorCore/WISize.m
+c000000004C92386D00000000000000E9
+t1284651117
+s233
+i"WISize.h"
+
+N/Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m
+c000000004C92345500000000000000EA
+t1284650069
+s234
+i<Foundation/Foundation.h>
+
+N/Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore_Prefix.pch
+c000000004C92345500000000000000AE
+t1284650069
+s174
+i<Foundation/Foundation.h>
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/Debug/WidgetEditorCore
+t2
+s0
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/Interfacer.o
+t2
+s0
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIBound.o
+t1284651351
+s9060
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIPoint.o
+t1284651351
+s8732
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WISize.o
+t1284651351
+s8808
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WidgetEditorCore.LinkFileList
+c000000004C9239540000000000000286
+t1284651348
+s646
+
+N/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WidgetEditorCore.o
+t1284651351
+s6972
+
+N/var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch.gch
+t1284651351
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies306344148#306344148#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/Interfacer.o /Users/wavs/Desktop/WidgetEditorCore/Interfacer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306344151.284789
+e306344151.519877
+r0
+xCompileC
+xbuild/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/Interfacer.o
+x/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m: In function '-[Interfacer saveUIWithFilename:]':
+o/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m:22: error: expected ':' before '*' token
+o/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m:26: error: expected ';' before '}' token
+lSLF07#2@57"Compile /Users/wavs/Desktop/WidgetEditorCore/Interfacer.m306344151#306344151#0(282"/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m: In function '-[Interfacer saveUIWithFilename:]':/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m:22: error: expected ':' before '*' token/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m:26: error: expected ';' before '}' token2(4@29"Expected ':' before '*' token306344151#100#91#0(6@49"/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m306343957#22#0#22#0#19"expected * before *0(4@29"Expected ';' before '}' token306344151#191#91#0(6@49"/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m306343957#26#0#26#0#19"expected * before *0(0#0#49"/Users/wavs/Desktop/WidgetEditorCore/Interfacer.m8619761536#1620"    cd /Users/wavs/Desktop/WidgetEditorCore    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-generated-files.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-own-target-headers.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-all-target-headers.hmap -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-project-headers.hmap -F/Users/wavs/Desktop/WidgetEditorCore/build/Debug -I/Users/wavs/Desktop/WidgetEditorCore/build/Debug/include -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources -include /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch -c /Users/wavs/Desktop/WidgetEditorCore/Interfacer.m -o /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/Interfacer.o1#
+
+CCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIBound.o /Users/wavs/Desktop/WidgetEditorCore/WIBound.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306344151.679363
+e306344151.806424
+r1
+xCompileC
+xbuild/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIBound.o
+x/Users/wavs/Desktop/WidgetEditorCore/WIBound.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/wavs/Desktop/WidgetEditorCore/WIBound.m306344151#306344151#0(0"0(0#0#46"/Users/wavs/Desktop/WidgetEditorCore/WIBound.m8613280544#1614"    cd /Users/wavs/Desktop/WidgetEditorCore    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-generated-files.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-own-target-headers.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-all-target-headers.hmap -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-project-headers.hmap -F/Users/wavs/Desktop/WidgetEditorCore/build/Debug -I/Users/wavs/Desktop/WidgetEditorCore/build/Debug/include -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources -include /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch -c /Users/wavs/Desktop/WidgetEditorCore/WIBound.m -o /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIBound.o0#
+
+CCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIPoint.o /Users/wavs/Desktop/WidgetEditorCore/WIPoint.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306344151.519977
+e306344151.683578
+r1
+xCompileC
+xbuild/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIPoint.o
+x/Users/wavs/Desktop/WidgetEditorCore/WIPoint.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/wavs/Desktop/WidgetEditorCore/WIPoint.m306344151#306344151#0(0"0(0#0#46"/Users/wavs/Desktop/WidgetEditorCore/WIPoint.m8620042624#1614"    cd /Users/wavs/Desktop/WidgetEditorCore    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-generated-files.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-own-target-headers.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-all-target-headers.hmap -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-project-headers.hmap -F/Users/wavs/Desktop/WidgetEditorCore/build/Debug -I/Users/wavs/Desktop/WidgetEditorCore/build/Debug/include -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources -include /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch -c /Users/wavs/Desktop/WidgetEditorCore/WIPoint.m -o /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WIPoint.o0#
+
+CCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WISize.o /Users/wavs/Desktop/WidgetEditorCore/WISize.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306344151.536695
+e306344151.679257
+r1
+xCompileC
+xbuild/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WISize.o
+x/Users/wavs/Desktop/WidgetEditorCore/WISize.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/wavs/Desktop/WidgetEditorCore/WISize.m306344151#306344151#0(0"0(0#0#45"/Users/wavs/Desktop/WidgetEditorCore/WISize.m8619687008#1612"    cd /Users/wavs/Desktop/WidgetEditorCore    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-generated-files.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-own-target-headers.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-all-target-headers.hmap -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-project-headers.hmap -F/Users/wavs/Desktop/WidgetEditorCore/build/Debug -I/Users/wavs/Desktop/WidgetEditorCore/build/Debug/include -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources -include /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch -c /Users/wavs/Desktop/WidgetEditorCore/WISize.m -o /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WISize.o0#
+
+CCompileC build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WidgetEditorCore.o /Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306344151.283706
+e306344151.536603
+r1
+xCompileC
+xbuild/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WidgetEditorCore.o
+x/Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m306344151#306344151#0(0"0(0#0#55"/Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m8612542784#1632"    cd /Users/wavs/Desktop/WidgetEditorCore    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-generated-files.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-own-target-headers.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-all-target-headers.hmap -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-project-headers.hmap -F/Users/wavs/Desktop/WidgetEditorCore/build/Debug -I/Users/wavs/Desktop/WidgetEditorCore/build/Debug/include -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources -include /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch -c /Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore.m -o /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/Objects-normal/x86_64/WidgetEditorCore.o0#
+
+CLd /Users/wavs/Desktop/WidgetEditorCore/build/Debug/WidgetEditorCore normal x86_64
+r0
+
+CProcessPCH /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch.gch WidgetEditorCore_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s306344148.414960
+e306344151.283491
+r1
+xProcessPCH
+x/var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch.gch
+xWidgetEditorCore_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile WidgetEditorCore_Prefix.pch306344148#306344151#0(0"0(0#0#64"/Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore_Prefix.pch8388346030422583296#1507"    cd /Users/wavs/Desktop/WidgetEditorCore    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-generated-files.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-own-target-headers.hmap -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-all-target-headers.hmap -iquote /Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/WidgetEditorCore-project-headers.hmap -F/Users/wavs/Desktop/WidgetEditorCore/build/Debug -I/Users/wavs/Desktop/WidgetEditorCore/build/Debug/include -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/WidgetEditorCore/build/WidgetEditorCore.build/Debug/WidgetEditorCore.build/DerivedSources -c /Users/wavs/Desktop/WidgetEditorCore/WidgetEditorCore_Prefix.pch -o /var/folders/Lx/LxjOP8A+Fy08SrR0rRpMX++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WidgetEditorCore_Prefix-awabywidbcwqkddlgcthmzbrghmn/WidgetEditorCore_Prefix.pch.gch0#
+
