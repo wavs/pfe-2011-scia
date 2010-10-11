@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BFDB0AE12426D1100890017 /* Interfacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB0AD12426D1100890017 /* Interfacer.m */; };
+		4BFDB0B112426F5400890017 /* WIPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB0B012426F5400890017 /* WIPoint.m */; };
+		4BFDB0B412426FB100890017 /* WISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB0B312426FB100890017 /* WISize.m */; };
+		4BFDB0BB1242706F00890017 /* WIBound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB0BA1242706F00890017 /* WIBound.m */; };
+		4BFDB11A1242897400890017 /* WIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB1191242897400890017 /* WIView.m */; };
+		4BFDB11D12428A8800890017 /* WIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB11C12428A8800890017 /* WIColor.m */; };
+		4BFDB12C12428E8200890017 /* WIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB12B12428E8200890017 /* WIImageView.m */; };
+		4BFDB13012428F9600890017 /* WIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB12F12428F9600890017 /* WIImage.m */; };
+		4BFDB13C1242914600890017 /* WILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDB13B1242914600890017 /* WILabel.m */; };
+		8DD76F9A0486AA7600D96B5E /* WidgetEditorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* WidgetEditorCore.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* WidgetEditorCore.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* WidgetEditorCore.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* WidgetEditorCore.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* WidgetEditorCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetEditorCore.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* WidgetEditorCore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetEditorCore_Prefix.pch; sourceTree = "<group>"; };
+		4BFDB0AC12426D1100890017 /* Interfacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interfacer.h; sourceTree = "<group>"; };
+		4BFDB0AD12426D1100890017 /* Interfacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interfacer.m; sourceTree = "<group>"; };
+		4BFDB0AF12426F5400890017 /* WIPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIPoint.h; sourceTree = "<group>"; };
+		4BFDB0B012426F5400890017 /* WIPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIPoint.m; sourceTree = "<group>"; };
+		4BFDB0B212426FB100890017 /* WISize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WISize.h; sourceTree = "<group>"; };
+		4BFDB0B312426FB100890017 /* WISize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WISize.m; sourceTree = "<group>"; };
+		4BFDB0B91242706F00890017 /* WIBound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIBound.h; sourceTree = "<group>"; };
+		4BFDB0BA1242706F00890017 /* WIBound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIBound.m; sourceTree = "<group>"; };
+		4BFDB1181242897400890017 /* WIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIView.h; sourceTree = "<group>"; };
+		4BFDB1191242897400890017 /* WIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIView.m; sourceTree = "<group>"; };
+		4BFDB11B12428A8800890017 /* WIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIColor.h; sourceTree = "<group>"; };
+		4BFDB11C12428A8800890017 /* WIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIColor.m; sourceTree = "<group>"; };
+		4BFDB12A12428E8200890017 /* WIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIImageView.h; sourceTree = "<group>"; };
+		4BFDB12B12428E8200890017 /* WIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIImageView.m; sourceTree = "<group>"; };
+		4BFDB12E12428F9600890017 /* WIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIImage.h; sourceTree = "<group>"; };
+		4BFDB12F12428F9600890017 /* WIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIImage.m; sourceTree = "<group>"; };
+		4BFDB13A1242914600890017 /* WILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WILabel.h; sourceTree = "<group>"; };
+		4BFDB13B1242914600890017 /* WILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WILabel.m; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* WidgetEditorCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WidgetEditorCore; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* WidgetEditorCore.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WidgetEditorCore.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* WidgetEditorCore */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = WidgetEditorCore;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB0B51242701C00890017 /* WidgetInterface */,
+				32A70AAB03705E1F00C91783 /* WidgetEditorCore_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* WidgetEditorCore.m */,
+				4BFDB0AC12426D1100890017 /* Interfacer.h */,
+				4BFDB0AD12426D1100890017 /* Interfacer.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* WidgetEditorCore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFDB0B51242701C00890017 /* WidgetInterface */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB1391242913000890017 /* WILabel */,
+				4BFDB12D12428F7400890017 /* WIImage */,
+				4BFDB12912428E7500890017 /* WIImageView */,
+				4BFDB1171242896700890017 /* WIView */,
+				4BFDB0B81242706400890017 /* WIBound */,
+				4BFDB0B71242703100890017 /* WISize */,
+				4BFDB0B61242702B00890017 /* WIPoint */,
+				4BFDB11E12428C2100890017 /* WIColor */,
+			);
+			name = WidgetInterface;
+			sourceTree = "<group>";
+		};
+		4BFDB0B61242702B00890017 /* WIPoint */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB0AF12426F5400890017 /* WIPoint.h */,
+				4BFDB0B012426F5400890017 /* WIPoint.m */,
+			);
+			name = WIPoint;
+			sourceTree = "<group>";
+		};
+		4BFDB0B71242703100890017 /* WISize */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB0B212426FB100890017 /* WISize.h */,
+				4BFDB0B312426FB100890017 /* WISize.m */,
+			);
+			name = WISize;
+			sourceTree = "<group>";
+		};
+		4BFDB0B81242706400890017 /* WIBound */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB0B91242706F00890017 /* WIBound.h */,
+				4BFDB0BA1242706F00890017 /* WIBound.m */,
+			);
+			name = WIBound;
+			sourceTree = "<group>";
+		};
+		4BFDB1171242896700890017 /* WIView */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB1181242897400890017 /* WIView.h */,
+				4BFDB1191242897400890017 /* WIView.m */,
+			);
+			name = WIView;
+			sourceTree = "<group>";
+		};
+		4BFDB11E12428C2100890017 /* WIColor */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB11B12428A8800890017 /* WIColor.h */,
+				4BFDB11C12428A8800890017 /* WIColor.m */,
+			);
+			name = WIColor;
+			sourceTree = "<group>";
+		};
+		4BFDB12912428E7500890017 /* WIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB12A12428E8200890017 /* WIImageView.h */,
+				4BFDB12B12428E8200890017 /* WIImageView.m */,
+			);
+			name = WIImageView;
+			sourceTree = "<group>";
+		};
+		4BFDB12D12428F7400890017 /* WIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB12E12428F9600890017 /* WIImage.h */,
+				4BFDB12F12428F9600890017 /* WIImage.m */,
+			);
+			name = WIImage;
+			sourceTree = "<group>";
+		};
+		4BFDB1391242913000890017 /* WILabel */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDB13A1242914600890017 /* WILabel.h */,
+				4BFDB13B1242914600890017 /* WILabel.m */,
+			);
+			name = WILabel;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* WidgetEditorCore.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* WidgetEditorCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "WidgetEditorCore" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetEditorCore;
+			productInstallPath = "$(HOME)/bin";
+			productName = WidgetEditorCore;
+			productReference = 8DD76FA10486AA7600D96B5E /* WidgetEditorCore */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "WidgetEditorCore" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* WidgetEditorCore */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* WidgetEditorCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* WidgetEditorCore.m in Sources */,
+				4BFDB0AE12426D1100890017 /* Interfacer.m in Sources */,
+				4BFDB0B112426F5400890017 /* WIPoint.m in Sources */,
+				4BFDB0B412426FB100890017 /* WISize.m in Sources */,
+				4BFDB0BB1242706F00890017 /* WIBound.m in Sources */,
+				4BFDB11A1242897400890017 /* WIView.m in Sources */,
+				4BFDB11D12428A8800890017 /* WIColor.m in Sources */,
+				4BFDB12C12428E8200890017 /* WIImageView.m in Sources */,
+				4BFDB13012428F9600890017 /* WIImage.m in Sources */,
+				4BFDB13C1242914600890017 /* WILabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WidgetEditorCore_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = WidgetEditorCore;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WidgetEditorCore_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = WidgetEditorCore;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "WidgetEditorCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "WidgetEditorCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
