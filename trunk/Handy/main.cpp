@@ -7,6 +7,7 @@
 #include <netinet/in.h>
 #include <netdb.h>
 #include <string.h>
+#include <string>
 
 
 #include "OpenCV/cv.h"
@@ -14,7 +15,7 @@
 
 
 
-#define PORT        5554
+#define PORT        5542
 /* REPLACE with your server machine name*/
 #define HOST        "localhost"
 #define CLOSE		"close"
@@ -38,7 +39,6 @@ int conn;
 int size_recv;
 char message[100];
 struct sockaddr_in ssin;
-struct sockaddr_in ppin;
 struct hostent *hp;
 
 
@@ -83,11 +83,13 @@ int init_server(void)
 	
 	/* fill in the socket structure with host information */
 	
-	 memset(&ppin, 0, sizeof(ppin));
-	 ppin.sin_family = AF_INET;
-	 ppin.sin_addr.s_addr = ((struct in_addr *)(hp->h_addr))->s_addr;
-	 ppin.sin_port = htons(PORT);
+
 	 
+	memset(&ssin, 0, sizeof (struct sockaddr_in));
+	ssin.sin_addr.s_addr = htonl(INADDR_ANY);
+	ssin.sin_family = PF_INET;
+	ssin.sin_port = htons(PORT);
+	
 	 /* grab an Internet domain socket */
 	
 	 if ((sd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
@@ -98,35 +100,52 @@ int init_server(void)
 	
 	/* connect to PORT on HOST */
 	
-	 if (bind(sd,(struct sockaddr *)  &ppin, sizeof(ppin)) == -1) {
+	 if (bind(sd,(struct sockaddr *)  &ssin, sizeof(ssin)) == -1) {
 	 perror("connect");
+		 close(sd);
 	 return(-1);
 	 }
 	 
 	 if (listen(sd, BACKLOG) == -1)
 	 {
 	 perror("couldn't not connect");
+		 close(sd);
 	 return(-1);
 	 }
-	 
-	 if ((conn = accept(sd, NULL, NULL) == -1))
+	
+	
+	
+	struct sockaddr_in ppin;
+	socklen_t ss_sister = sizeof (struct sockaddr);
+	conn = accept(sd, (struct sockaddr *)&ppin, &ss_sister);
+	 if (conn == -1)
 	 {
 	 perror("accept failed");
+		 close(sd);
 	 return(-1);
 	 }
 	
 	memset(&message, 0, MSG_SIZE);
+
+
+	
 	size_recv = recv(conn, message, MSG_SIZE, MSG_PEEK);
 	if ( size_recv == -1)
 	{
 			 perror("didn't received message");
+		close(sd);
 			 return (-1);
 	}
 	else if ( size_recv == 0)
 	{
 		perror("the peer closed the connexion");
+		close(sd);
 		return (-1);
 	}
+	else {
+		std::cout << message << std::endl;
+	}
+ 
 	return (0);
 	 	
 }
@@ -277,16 +296,24 @@ void detectAndDraw( Mat& img, IplImage* image,
                    CascadeClassifier& cascade, CascadeClassifier& nestedCascade,
                    double scale, IplImage* motion);
 
-////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////1
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
 
+//<<<<<<< .mine
+//String cascadeName = "/Users/gui/code/pfe-2011-scia/Handy/doigt.xml";
+//=======
 String cascadeName = "/Users/Alex/Documents/Programation/pfe/pfe-2011-scia/Handy/doigt.xml";
-//"haarcascade_frontalface_alt.xml";
-String nestedCascadeName =
+//>>>>>>> .r27
+////"haarcascade_frontalface_alt.xml";
+//String nestedCascadeName =
+//<<<<<<< .mine
+//"/Users/gui/code/pfe-2011-scia/Handy/haarcascade_eye_tree_eyeglasses.xml";
+//=======
 "/Users/Alex/Documents/Programation/pfe/pfe-2011-scia/Handy/haarcascade_eye_tree_eyeglasses.xml";
+//>>>>>>> .r27
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -391,10 +418,6 @@ int main( int argc, const char** argv )
                 cvZero( motion );
                 motion->origin = iplImg->origin;
             }
-
-			// send
-			
-			// recv
 			
             if( frame.empty() )
                 break;
@@ -403,6 +426,8 @@ int main( int argc, const char** argv )
             else
                 flip( frame, frameCopy, 0 );
 
+			// send
+			// recv inside the detectAndDraw
             detectAndDraw( frameCopy, iplImg, cascade, nestedCascade, scale, motion);
 
             if( waitKey( 10 ) >= 0 )
@@ -512,42 +537,112 @@ void detectAndDraw( Mat& img, IplImage* image,
     else
       old_faces = faces;
 
-    for( vector<Rect>::const_iterator r = faces.begin(); r != faces.end(); r++, i++ )
+	if (faces.size() == 0)
+	{
+		std::stringstream messagecpp;
+		std::string str_noob;
+		
+		messagecpp << "up:1:" << 0 << ":" << 0;
+		str_noob = messagecpp.str();
+		const char *message_to_send = str_noob.c_str();
+		
+		// server send and rcv!!
+		
+		send(conn, message_to_send, strlen(message_to_send), MSG_OOB);
+		
+		memset(&message, 0, MSG_SIZE);
+		
+		size_recv = recv(conn, message, MSG_SIZE, MSG_PEEK);
+		if ( size_recv == -1)
+		{
+			perror("didn't received message");
+			close(sd);
+			return;
+		}
+		else if ( size_recv == 0)
+		{
+			perror("the peer closed the connexion");
+			close(sd);
+			return;
+		}
+		else {
+			std::cout << message << std::endl;
+		}
+	}
+	else
     {
-        Mat smallImgROI;
-        vector<Rect> nestedObjects;
-        Point center;
-        Scalar color = colors[i%8];
-        int radius;
-        center.x = cvRound((r->x + r->width*0.5)*scale);
-        center.y = cvRound((r->y + r->height*0.5)*scale);
-        radius = cvRound((r->width + r->height)*0.25*scale);
-
-        //std::cout << "radius = " << radius << std::endl;
-        if (radius > 25)
-          continue;
-
-
-        circle( img, center, radius, color, 3, 8, 0 );
-        if( nestedCascade.empty() )
-            continue;
-        smallImgROI = smallImg(*r);
-        nestedCascade.detectMultiScale( smallImgROI, nestedObjects,
-            1.1, 2, 0
-            //|CV_HAAR_FIND_BIGGEST_OBJECT
-            //|CV_HAAR_DO_ROUGH_SEARCH
-            //|CV_HAAR_DO_CANNY_PRUNING
-            |CV_HAAR_SCALE_IMAGE
-            ,
-            Size(30, 30) );
-        for( vector<Rect>::const_iterator nr = nestedObjects.begin(); nr != nestedObjects.end(); nr++ )
-        {
-            center.x = cvRound((r->x + nr->x + nr->width*0.5)*scale);
-            center.y = cvRound((r->y + nr->y + nr->height*0.5)*scale);
-            radius = cvRound((nr->width + nr->height)*0.25*scale);
-            circle( img, center, radius, color, 3, 8, 0 );
-        }
-    }
+		int cpt_loop = 0;
+		for( vector<Rect>::const_iterator r = faces.begin(); r != faces.end(); r++, i++ )
+		{
+			Mat smallImgROI;
+			vector<Rect> nestedObjects;
+			Point center;
+			Scalar color = colors[i%8];
+			int radius;
+			
+			std::stringstream messagecpp;
+			std::string str_noob;
+			cpt_loop++;
+			messagecpp << "down:" << cpt_loop << ":" << r->x << ":" << r->y;
+			str_noob = messagecpp.str();
+			const char *message_to_send = str_noob.c_str();
+			
+			// server send and rcv!!
+			
+			send(conn, message_to_send, strlen(message_to_send), MSG_OOB);
+			
+			
+			memset(&message, 0, MSG_SIZE);
+			
+			size_recv = recv(conn, message, MSG_SIZE, MSG_PEEK);
+			if ( size_recv == -1)
+			{
+				perror("didn't received message");
+				close(sd);
+				return;
+			}
+			else if ( size_recv == 0)
+			{
+				perror("the peer closed the connexion");
+				close(sd);
+				return;
+			}
+			else {
+				std::cout << message << std::endl;
+			}
+			
+			// fin de la partie server.
+			
+			center.x = cvRound((r->x + r->width*0.5)*scale);
+			center.y = cvRound((r->y + r->height*0.5)*scale);
+			radius = cvRound((r->width + r->height)*0.25*scale);
+			
+			//std::cout << "radius = " << radius << std::endl;
+			if (radius > 25)
+				continue;
+			
+			
+			circle( img, center, radius, color, 3, 8, 0 );
+			if( nestedCascade.empty() )
+				continue;
+			smallImgROI = smallImg(*r);
+			nestedCascade.detectMultiScale( smallImgROI, nestedObjects,
+										   1.1, 2, 0
+										   //|CV_HAAR_FIND_BIGGEST_OBJECT
+										   //|CV_HAAR_DO_ROUGH_SEARCH
+										   //|CV_HAAR_DO_CANNY_PRUNING
+										   |CV_HAAR_SCALE_IMAGE
+										   ,
+										   Size(30, 30) );
+			for( vector<Rect>::const_iterator nr = nestedObjects.begin(); nr != nestedObjects.end(); nr++ )
+			{
+				center.x = cvRound((r->x + nr->x + nr->width*0.5)*scale);
+				center.y = cvRound((r->y + nr->y + nr->height*0.5)*scale);
+				radius = cvRound((nr->width + nr->height)*0.25*scale);
+				circle( img, center, radius, color, 3, 8, 0 );
+			}
+		}	
+	}
 
 
     cv::imshow( "result", img );
