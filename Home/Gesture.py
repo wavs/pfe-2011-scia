@@ -9,7 +9,7 @@ import time
 from os import *
 
 HOST = 'localhost'
-PORT = 5551
+PORT = 5554
 
 i = 0;
 

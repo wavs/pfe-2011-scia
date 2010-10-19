@@ -25,15 +25,27 @@ class Board():
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
 			w_center = WidgetCenter()
 			l = w_center.getWidgetList()
+			C = gluNewQuadric();
+			
 			for widget in l:
 				(x, y) = widget.getxy()
 				(w, h) = widget.getwh()
 				color = widget.getColor()
 				#glTranslatef(x, y, 0)
 				drawBox(x, y, w, h, color, True)
+			drawCircle(C, 50, 50, 15, "bleu")
+			drawCircle(C, 150, 150, 15, "bleu")
 			glLoadIdentity()
 			glutSwapBuffers()
+			gluDeleteQuadric(C)
 
+		def drawCircle(C, x, y, r, color):
+			#glPushMatrix()
+			glTranslatef(x, y, 0)
+			gluDisk(C, r - 3.0, r, 50, 1);
+			#glPopMatrix()
+			
+			
 		def drawBox(x, y, width, height, color, titleBar):
 			if width == 0:
 				width = 1

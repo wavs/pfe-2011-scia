@@ -1,24 +1,51 @@
 from Widget.Widget import *
 
+## Class : WidgetCenter<br/>
+## This class handle the widgets
+##
 class WidgetCenter:
 	
 	widgetList = [] 
 	
+	## Funtion new<br/>
+	## Arguments : no<br/>
+	## Note : Singleton
+	## Return : the object itself
+	##	
 	def __new__(self):
 		if self.instance is None:
 			self.instance = object.__new__(self)
 		return self.instance
-	
+
+	## Funtion subscribeNewWidget<br/>
+	## Arguments :<br/>
+	##	- widget : Widget Object<br/>
+	## Return : no
+	##	
 	def subscribeNewWidget(self, widget):
 		self.widgetList.append(widget)
 
+	## Funtion printWidgetList<br/>
+	## Arguments : no<br/>
+	## Note : display widgets information on the standard output<br/>
+	## Return : no
+	##
 	def printWidgetList(self):
 		for w in self.widgetList:
 			w.printWidget()
 
+	## Funtion getWidgetList<br/>
+	## Arguments : no<br/>
+	## Return : the widget list
+	##
 	def getWidgetList(self):
 		return self.widgetList
 
+	## Funtion deleteWidget<br/>
+	## Arguments :<br/>
+	##	- widget : widget object that has to be deleted<br/>
+	## Return : no
+	##
 	def deleteWidget(self, widget):
 		i = 0
 		j = 0
@@ -29,6 +56,11 @@ class WidgetCenter:
 		if (j != 0):
 			self.widgetList.pop(j)
 
+	## Funtion examinNotif<br/>
+	## Arguments :<br/>
+	##	- notif : the notif object bringing new information<br/>
+	## Return : The widget that has been notified
+	##
 	def examinNotif(self, notif):
 		widgetNotified = None
 		maxZ = 0
