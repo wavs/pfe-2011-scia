@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4B388D5711E3964D003C7B02 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B388D5611E3964D003C7B02 /* main.cpp */; };
-		4B388DA611E3977C003C7B02 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B388DA511E3977C003C7B02 /* OpenCV.framework */; };
 		8DD76F6A0486A84900D96B5E /* DemoHandy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* DemoHandy.1 */; };
+		FAA66B5B126CB8840036EB83 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA66B5A126CB8840036EB83 /* OpenCV.framework */; };
+		FAA66B5D126CB8960036EB83 /* OpenCV.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAA66B5A126CB8840036EB83 /* OpenCV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +20,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				FAA66B5D126CB8960036EB83 /* OpenCV.framework in CopyFiles */,
 				8DD76F6A0486A84900D96B5E /* DemoHandy.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -28,10 +30,10 @@
 /* Begin PBXFileReference section */
 		4B388D5511E39639003C7B02 /* doigt.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = doigt.xml; sourceTree = "<group>"; };
 		4B388D5611E3964D003C7B02 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4B388DA511E3977C003C7B02 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
 		4B388DEC11E39873003C7B02 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* DemoHandy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoHandy; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* DemoHandy.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DemoHandy.1; sourceTree = "<group>"; };
+		FAA66B5A126CB8840036EB83 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCV.framework; path = /Library/Frameworks/OpenCV.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B388DA611E3977C003C7B02 /* OpenCV.framework in Frameworks */,
+				FAA66B5B126CB8840036EB83 /* OpenCV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +53,10 @@
 			children = (
 				4B388D5511E39639003C7B02 /* doigt.xml */,
 				4B388DEC11E39873003C7B02 /* haarcascade_eye_tree_eyeglasses.xml */,
-				4B388DA411E3977B003C7B02 /* OpenCV */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859E8C029090F304C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				FAA66B5A126CB8840036EB83 /* OpenCV.framework */,
 			);
 			name = DemoHandy;
 			sourceTree = "<group>";
@@ -73,14 +75,6 @@
 				8DD76F6C0486A84900D96B5E /* DemoHandy */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4B388DA411E3977B003C7B02 /* OpenCV */ = {
-			isa = PBXGroup;
-			children = (
-				4B388DA511E3977C003C7B02 /* OpenCV.framework */,
-			);
-			name = OpenCV;
 			sourceTree = "<group>";
 		};
 		C6859E8C029090F304C91782 /* Documentation */ = {
@@ -195,7 +189,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = "";
-				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -218,7 +212,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				PREBINDING = NO;
 				SDKROOT = "";
-				VALID_ARCHS = "x86_64 i386 ppc ppc64 ppc7400 ppc970";
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Release;
 		};

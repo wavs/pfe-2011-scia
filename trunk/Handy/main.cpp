@@ -283,10 +283,10 @@ void detectAndDraw( Mat& img, IplImage* image,
 ////////////////////////////////////////////////////////////////////////////////
 
 
-String cascadeName = "/Users/gui/code/pfe-2011-scia/DemoHandy/doigt.xml";
+String cascadeName = "/Users/Alex/Documents/Programation/pfe/pfe-2011-scia/Handy/doigt.xml";
 //"haarcascade_frontalface_alt.xml";
 String nestedCascadeName =
-"/Users/gui/code/pfe-2011-scia/DemoHandy/haarcascade_eye_tree_eyeglasses.xml";
+"/Users/Alex/Documents/Programation/pfe/pfe-2011-scia/Handy/haarcascade_eye_tree_eyeglasses.xml";
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
