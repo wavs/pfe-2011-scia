@@ -1,0 +1,7 @@
+
+<WidgetUI>
+    <WIView bounds="0,0:300,200" tag="1" backgroundColor="0,255,0">
+        <WILabel text="Hello World!" textColor="255,0,0" fontSize="10" backgroundColor="0,0,0" bounds="20,10:260,35" tag="3"></WILabel>
+        <WIImageView backgroundColor="0,0,0" image="clown.jpg" bounds="90,100:75,75" tag="2"></WIImageView>
+    </WIView>
+</WidgetUI>
