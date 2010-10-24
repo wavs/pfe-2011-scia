@@ -1,0 +1,33 @@
+<WidgetUI>
+	
+    <WIView bounds="0,0:1280,800" tag="1" backgroundColor="255,255,255" user-defined="1">
+	
+        <WILabel text="Hello World!" textColor="255,0,0" fontSize="10" backgroundColor="0,0,0" bounds="20,10:260,35" tag="2" user-defined="1">
+			
+			<WIImageView backgroundColor="0,0,0" image="singe.jpg" bounds="90,100:75,75" tag="5" user-defined="1">
+				
+				<WIView bounds="0,0:300,200" tag="10" backgroundColor="0,255,0" user-defined="1">
+					
+					<WILabel text="MacBook" textColor="255,0,0" fontSize="23" backgroundColor="23,21,27" bounds="20,10:260,35" tag="11" user-defined="1"></WILabel>
+					
+				</WIView>
+				
+			</WIImageView>
+			
+			<WIImageView backgroundColor="42,42,42" image="clown.jpg" bounds="9,12:89,75" tag="6" user-defined="0"></WIImageView>
+		
+		</WILabel>
+		
+        <WIImageView backgroundColor="0,0,0" image="ouistiti.jpg" bounds="50,10:735,5" tag="3" user-defined="0">
+        	<WIView bounds="0,0:300,200" tag="4" backgroundColor="0,255,0" user-defined="0">
+			</WIView>
+        </WIImageView>
+		
+		<WIView bounds="0,0:300,200" tag="4" backgroundColor="0,255,0" user-defined="1">
+			<WIImageView backgroundColor="0,0,0" image="chimpanze1.jpg" bounds="50,10:735,5" tag="7" user-defined="1"></WIImageView>
+			<WIImageView backgroundColor="0,0,0" image="chimpanze2.jpg" bounds="60,10:745,5" tag="8" user-defined="0"></WIImageView>
+			<WIImageView backgroundColor="0,0,0" image="chimpanze4.jpg" bounds="70,10:755,5" tag="9" user-defined="1"></WIImageView>
+		</WIView>
+    </WIView>
+
+</WidgetUI>
