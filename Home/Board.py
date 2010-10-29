@@ -5,6 +5,35 @@ from WidgetCenter.WidgetCenter import *
 
 ESCAPE = '\033'
 
+def drawBox(x, y, width, height, color, titleBar):
+	if width == 0:
+		width = 1
+	if height == 0:
+		height = 1
+	
+	
+	if (color == "white"):
+		glColor3f(1.0, 1.0, 1.0)
+	else:
+		glColor3f(0.8, 0.8, 0.8)
+
+	glBegin(GL_QUADS)
+	glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
+	glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
+	glVertex3f(x + (width/2.0), y + (height/2.0), 0.0)	# Bottom Right
+	glVertex3f(x - (width/2.0), y + (height/2.0), 0.0)	# Bottom Left
+	glEnd()
+	
+	if (titleBar):
+		glColor3f(0.5, 0.0, 0.0)
+	
+		glBegin(GL_QUADS)
+		glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
+		glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
+		glVertex3f(x + (width/2.0), y - (height/2.0) + 20, 0.0)	# Bottom Right
+		glVertex3f(x - (width/2.0), y - (height/2.0) + 20, 0.0)	# Bottom Left
+		glEnd()
+
 class Board():
 	def __init__(self, height, width, title):
 		self.height = height
@@ -26,13 +55,10 @@ class Board():
 			w_center = WidgetCenter()
 			l = w_center.getWidgetList()
 			C = gluNewQuadric();
-			
-			for widget in l:
-				(x, y) = widget.getxy()
-				(w, h) = widget.getwh()
-				color = widget.getColor()
-				#glTranslatef(x, y, 0)
-				drawBox(x, y, w, h, color, True)
+			w_center.displayOnGF()
+			# for widget in l:
+			# 	#glTranslatef(x, y, 0)
+			# 	drawBox(widget.x, widget.y, widget.w, widget.h, widget.color, True)
 			drawCircle(C, 50, 50, 15, "bleu")
 			drawCircle(C, 150, 150, 15, "bleu")
 			glLoadIdentity()
@@ -44,36 +70,7 @@ class Board():
 			glTranslatef(x, y, 0)
 			gluDisk(C, r - 3.0, r, 50, 1);
 			#glPopMatrix()
-			
-			
-		def drawBox(x, y, width, height, color, titleBar):
-			if width == 0:
-				width = 1
-			if height == 0:
-				height = 1
-			
-			
-			if (color == "white"):
-				glColor3f(1.0, 1.0, 1.0)
-			else:
-				glColor3f(0.8, 0.8, 0.8)
 
-			glBegin(GL_QUADS)
-			glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
-			glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
-			glVertex3f(x + (width/2.0), y + (height/2.0), 0.0)	# Bottom Right
-			glVertex3f(x - (width/2.0), y + (height/2.0), 0.0)	# Bottom Left
-			glEnd()
-			
-			if (titleBar):
-				glColor3f(0.5, 0.0, 0.0)
-			
-				glBegin(GL_QUADS)
-				glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
-				glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
-				glVertex3f(x + (width/2.0), y - (height/2.0) + 20, 0.0)	# Bottom Right
-				glVertex3f(x - (width/2.0), y - (height/2.0) + 20, 0.0)	# Bottom Left
-				glEnd()
 		 
 		def ReshapeGLScene(width, height):
 			if height == 0:

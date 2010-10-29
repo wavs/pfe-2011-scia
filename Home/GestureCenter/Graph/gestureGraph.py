@@ -1,7 +1,7 @@
 from graph import *
 
 ## Class : GestureGraph<br/>
-## This is a graph specially design to represent movement makable with N fingers
+## This is a graph specially design to represent Movement makable with N fingers
 ##
 class GestureGraph :
 	
@@ -16,30 +16,30 @@ class GestureGraph :
 
 	## Funtion create_1_graph<br/>
 	## Arguments :no<br/>
-	## Return : a GestureGraph specially design to represent movement makable with only one finger
+	## Return : a GestureGraph specially design to represent Movement makable with only one finger
 	##
 	def create_1_graph(self):
 		self.g = Graph()
-		self.g.addNode("press")
-		self.g.addNode("click")
-		self.g.addNode("move")
-		self.g.addNode("press_long")
-		self.g.addNode("click_long")
+		self.g.addNode("Press")
+		self.g.addNode("Click")
+		self.g.addNode("Move")
+		self.g.addNode("PressLong")
+		self.g.addNode("ClickLong")
 		self.g.addNode("trash")
 		
-		self.g.addEdge("press", "click", "up")
-		self.g.addEdge("click", "press", "down")
-		self.g.addEdge("press", "press", "down")
-		self.g.addEdge("press", "move", "down", "slide")
-		self.g.addEdge("move", "move", "down")
-		self.g.addEdge("move", "trash", "up")
-		self.g.addEdge("trash", "press", "down")
-		self.g.addEdge("press", "press_long", "down", "time")
-		self.g.addEdge("press_long", "press_long", "down")
-		self.g.addEdge("press_long", "click_long", "up")
-		self.g.addEdge("click_long", "press", "down")
+		self.g.addEdge("Press", "Click", "up")
+		self.g.addEdge("Click", "Press", "down")
+		self.g.addEdge("Press", "Press", "down")
+		self.g.addEdge("Press", "Move", "down", "slide")
+		self.g.addEdge("Move", "Move", "down")
+		self.g.addEdge("Move", "trash", "up")
+		self.g.addEdge("trash", "Press", "down")
+		self.g.addEdge("Press", "PressLong", "down", "time")
+		self.g.addEdge("PressLong", "PressLong", "down")
+		self.g.addEdge("PressLong", "ClickLong", "up")
+		self.g.addEdge("ClickLong", "Press", "down")
 		
-		self.g.initCurrentNode("press")
+		self.g.initCurrentNode("Press")
 		
 		
 	## Funtion getGraph<br/>
@@ -59,16 +59,16 @@ class GestureGraph :
 
 	## Funtion getCurrentNode<br/>
 	## Arguments :no<br/>
-	## Return : the Node Object where the movement is <br/>
+	## Return : the Node Object where the Movement is <br/>
 	##	
 	def getCurrentNode(self):
 		return self.g.getCurrentNode();
 
-	## Funtion moveCurrentNode<br/>
+	## Funtion MoveCurrentNode<br/>
 	## Arguments :<br/>
 	##			- label : the label the current Node must follow (down or up)<br/>
 	##			- condition : extra label to go on specific Node<br/>
-	## Return : the Node Object where the movement is <br/>
+	## Return : the Node Object where the Movement is <br/>
 	##	
 	def moveCurrentNode(self, label, condition = ""):
 		self.g.changeCurrentNode(label, condition)

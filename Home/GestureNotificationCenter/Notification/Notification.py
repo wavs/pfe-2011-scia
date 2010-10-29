@@ -74,3 +74,11 @@ class Notification:
 	##
 	def setId(self, newid):
 		self.idNotification = newid
+		
+	def printInformation(self):
+		print "Notif :", self.id
+		print "   x : ", self.x
+		print "   y : ", self.y
+		print "   x0 : ", self.x0
+		print "   y0 : ", self.y0
+		print "   label : ", self.label

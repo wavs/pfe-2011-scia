@@ -1,4 +1,4 @@
-from Widget.Widget import *
+from Widget.SRView import *
 
 ## Class : WidgetCenter<br/>
 ## This class handle the widgets
@@ -32,7 +32,7 @@ class WidgetCenter:
 	##
 	def printWidgetList(self):
 		for w in self.widgetList:
-			w.printWidget()
+			w.printInformation()
 
 	## Funtion getWidgetList<br/>
 	## Arguments : no<br/>
@@ -65,14 +65,14 @@ class WidgetCenter:
 		widgetNotified = None
 		maxZ = 0
 		if not notif is None:
-			if notif.getLabel() == "up":
-				for widget in self.widgetList:
-					widget.defaultColor()
-		if not notif is None:
 			for widget in self.widgetList:
-				t = widget.clickInsideWidget(notif.getxy()[0], notif.getxy()[1])
-				if (t[0] == True):
-					if (maxZ <= t[1]):
-						widgetNotified = widget
-						maxZ = t[1]
-		return widgetNotified
+				w = widget.isInsideView(notif.getxy()[0], notif.getxy()[1])
+				if not w is None:
+					print w.tag
+				else:
+					print "No view inside"
+		return w
+	
+	def displayOnGF(self):
+		for w in self.widgetList:
+			w.display()
