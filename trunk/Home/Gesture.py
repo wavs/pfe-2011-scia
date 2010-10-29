@@ -1,4 +1,5 @@
 from Board import *
+from GfCenter.GfCenter import *
 from GestureCenter.GestureCenter import *
 from GestureNotificationCenter.GestureNotificationCenter import *
 from WidgetCenter.WidgetCenter import *
@@ -13,13 +14,18 @@ PORT = 5554
 
 i = 0;
 
-w = Widget(0, 0, 0, 100, 100, 1)
+w = SRView((0, 0), (100, 100), "View1", None, (24, 34, 50), 1)
+
+view1 = SRView((300, 300), (100, 100), "View1", None, (24, 34, 50), 1)
+view2 = SRView((310, 310), (100, 100), "View2", view1, (30, 30, 30), 1)
+view1.addSubView(view2)
 
 g_center = GestureCenter()
 w_center = WidgetCenter()
 center = MoveNotificationCenter()
 w_center.subscribeNewWidget(w)
-		
+w_center.subscribeNewWidget(view1)
+gf_center = GfCenter()
 
 def start_GestureCenter(g_center, center):
 	time.sleep(2)
@@ -38,17 +44,14 @@ def start_GestureCenter(g_center, center):
 		g_center.printGestures()
 		s.send('OK')
 	s.close()
-	
-		
+
 
 def start_WidgetCenter(w_center, center):
 	time.sleep(2)
 	while (True):
 		notif = center.handleNotification()
 		widget = w_center.examinNotif(notif)
-		if not notif is None:
-			#print notif.getAssociateGestureId(), notif.getLabel()
-			if not widget is None:
+		if (not notif is None) and (not widget is None):
 				widget.setNotif(notif)
 			
 b = os.fork()
