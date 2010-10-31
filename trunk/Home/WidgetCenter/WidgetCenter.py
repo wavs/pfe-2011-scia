@@ -76,3 +76,10 @@ class WidgetCenter:
 	def displayOnGF(self):
 		for w in self.widgetList:
 			w.display()
+	
+	def getViewWithTag(self, tag):
+		for w in self.widgetList:
+			r = w.getSubViewWithTag(tag)
+			if not r is None :
+				return r
+		return None

@@ -146,6 +146,15 @@ class SRView:
 		else:
 			return None
 
+	def getSubViewWithTag(self, tag):
+		if self.tag == tag:
+			return self
+		for v in self.subView:
+			r = v.getSubViewWithTag(tag)
+			if not r is None:
+				return r
+		return None
+			
 	def setNotif(self, Notif):
 		eval("self.on"+Notif.label+"(Notif)");
 
