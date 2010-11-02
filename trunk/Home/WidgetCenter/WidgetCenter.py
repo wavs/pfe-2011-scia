@@ -69,9 +69,10 @@ class WidgetCenter:
 				w = widget.isInsideView(notif.getxy()[0], notif.getxy()[1])
 				if not w is None:
 					print w.tag
+					return w
 				else:
 					print "No view inside"
-		return w
+		return None
 	
 	def displayOnGF(self):
 		for w in self.widgetList:

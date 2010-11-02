@@ -29,6 +29,8 @@ class Gestures:
 		self.history = []
 		self.moveLabel = ""
 		self.moveCondition = ""
+		self.nbUpMax = 5
+		self.nbCurrentUp = 0
 
 	## Funtion printGesture<br/>
 	## Arguments :no<br/>
@@ -45,6 +47,12 @@ class Gestures:
 	def getCoordonate(self):
 		return (self.coordx, self.coordy, self.coordxo, self.coordyo, self.t)
 
+	def changeCurrentUp(self, label):
+		if label == "up":
+			self.nbCurrentUp += 1
+		else:
+			self.nbCurrentUp = 0
+
 	## Funtion addMove<br/>
 	## Arguments :<br/>
 	##		- label : label of the next Edge to cross<br/>
@@ -54,16 +62,18 @@ class Gestures:
 	## Return : no
 	##
 	def addMove(self, label, x = -1, y = -1):
-		self.moveLabel = label
-		self.history.append((x, y))
-		if len(self.history) >= 25:
-			self.history.pop()
-		self.isPress(x, y)
-		self.t = self.t + 1
-		self.isLongTime()
-		self.isUp()
-		self.g.moveCurrentNode(self.moveLabel, self.moveCondition)
-		self.sendNotificationMove()
+		self.changeCurrentUp(label)
+		if (label != "up") or (self.nbCurrentUp == self.nbUpMax and label == "up"):
+			self.moveLabel = label
+			self.history.append((x, y))
+			if len(self.history) >= 25:
+				self.history.pop()
+			self.isPress(x, y)
+			self.t = self.t + 1
+			self.isLongTime()
+			self.isUp()
+			self.g.moveCurrentNode(self.moveLabel, self.moveCondition)
+			self.sendNotificationMove()
 	
 	
 	## Funtion sendNotificationMove<br/>
