@@ -10,7 +10,7 @@ import time
 from os import *
 
 HOST = 'localhost'
-PORT = 5554
+PORT = 5551
 
 i = 0;
 
@@ -56,7 +56,7 @@ def start_WidgetCenter(w_center, center):
 			
 b = os.fork()
 if b == 0:
-	os.system("python /Users/Alex/Documents/Programation/pfe/pfe-2011-scia/test/servertest.py")
+	os.system("python ../test/servertest.py")
 else:
 	thread_a = threading.Thread(None,start_GestureCenter, None, (g_center,center,))
 	thread_b = threading.Thread(None,start_WidgetCenter, None, (w_center,center,))

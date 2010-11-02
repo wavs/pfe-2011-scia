@@ -119,8 +119,8 @@ class SRView:
 		if not self.container is None:
 			self.container.onMove(Notif)
 		else:
-			(x, y) = notif.getxy()
-			(x0, y0) = notif.getx0y0()
+			(x, y) = Notif.getxy()
+			(x0, y0) = Notif.getx0y0()
 			self.x = self.x + x - x0
 			self.y = self.y + y - y0
 	
