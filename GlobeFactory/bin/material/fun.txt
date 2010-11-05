@@ -1,0 +1,2 @@
+type=SIMPLE_TEXTURE
+texture=fun.jpg

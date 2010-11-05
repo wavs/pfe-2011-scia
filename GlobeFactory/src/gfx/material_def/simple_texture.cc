@@ -76,6 +76,7 @@ SimpleTextureMaterial* SimpleTextureMaterialDescriptor::Load(unsigned parCfgFile
 
 void SimpleTextureMaterialDescriptor::PreRender() const
 {
+  glColor3f(1.0f, 1.0f, 1.0f);
   glEnable(GL_TEXTURE_2D);
 }
 

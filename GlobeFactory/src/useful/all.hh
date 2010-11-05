@@ -45,6 +45,9 @@
 #include "bounding_box.hh"
 #include "manager_loader.hh"
 #include "animator.hh"
+#include "xml_loader.hh"
+#include "xml_tree.hh"
+#include "xml_helper.hh"
 
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
