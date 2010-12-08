@@ -6,16 +6,16 @@ class SRImage(SRView.SRView):
 	def link():
 	    doc = "The text property."
 	    def fget(self):
-	        return self._text
+	        return self._link
 	    def fset(self, value):
-	        self._text = value
+	        self._link = value
 	    def fdel(self):
-	        del self._text
+	        del self._link
 	    return locals()
-	text = property(**text())
+	link = property(**link())
 	
 	def __init__(self, pos, size, tag, container, color, id, link):
-		SRView.SRView.__init__(pos, size, tag, container, color, id)
+		SRView.SRView.__init__(self, pos, size, tag, container, color, id)
 		self.link = link
 	
 	def onMove(self, Notif):
@@ -28,3 +28,11 @@ class SRImage(SRView.SRView):
 		#gf.drawMeSquare(self.x, self.y, self.w, self.h, self.color)
 		for v in self.subView:
 			v.display()
+	
+	def printInformation(self, n = 0):
+		print "Widget [", self, "] id ",self.id, " floor ", n, " Node ", self.tag
+		print "		Position[", self.x, ",", self.y, "] - Size[", self.w, ",", self.h, "]"
+		print "		Tag[", self.tag, "] - Color[", self.color, "] - Image[", self.link, "]"
+		print "		Container[", self.container, "]"
+		for v in self.subView:
+			v.printInformation(n + 1)
