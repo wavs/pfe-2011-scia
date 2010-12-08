@@ -1,0 +1,7 @@
+<SRView backgroundColor="0.221719,0.221719,0.221719" class="" bounds="100.000000,100.000000:500.000000,500.000000" tag="0">
+	<SRImageView imageFilename="skype" backgroundColor="0.200000,0.200000,0.200000" class="" bounds="103.000000,3.000000:300.000000,402.000000" tag="0"></SRImageView>
+	<SRLabel bounds="181.000000,429.000000:150.000000,40.000000" fontSize="23" class="" tag="0" text="1st widget" fontName="ArialMT" backgroundColor="0.223529,0.223529,0.223529" textColor="0.492941,0.841629,0.162520"></SRLabel>
+	<SRView backgroundColor="0.215766,0.271257,0.864253" class="" bounds="21.000000,81.000000:45.000000,100.000000" tag="0">
+		<SRLabel bounds="423,429:150,40" fontSize="42" class="" tag="2" text="Hello" fontName="ArialMT" backgroundColor="0.223529,0.223529,0.223529" textColor="0.492941,0.841629,0.162520"></SRLabel>
+	</SRView>
+</SRView>
