@@ -1,6 +1,6 @@
 import sys
 sys.path[:0] = ['../../']
-from GfCenter.GfCenter import *
+#from GfCenter.GfCenter import *
 
 class SRView:
 	
@@ -95,7 +95,10 @@ class SRView:
 		self.id = id
 
 	def printInformation(self, n = 0):
-		print "Widget id ",self.id, " floor ", n, " Node ", self.tag
+		print "Widget [", self, "] id ",self.id, " floor ", n, " Node ", self.tag
+		print "		Position[", self.x, ",", self.y, "] - Size[", self.w, ",", self.h, "]"
+		print "		Tag[", self.tag, "] - Color[", self.color, "]"
+		print "		Container[", self.container, "]"
 		for v in self.subView:
 			v.printInformation(n + 1)
 	
