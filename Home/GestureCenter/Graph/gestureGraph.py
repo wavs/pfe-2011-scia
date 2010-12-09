@@ -29,6 +29,7 @@ class GestureGraph :
 		
 		self.g.addEdge("Press", "Click", "up")
 		self.g.addEdge("Click", "Press", "down")
+		self.g.addEdge("Click", "trash", "up")
 		self.g.addEdge("Press", "Press", "down")
 		self.g.addEdge("Press", "Move", "down", "slide")
 		self.g.addEdge("Move", "Move", "down")

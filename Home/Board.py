@@ -11,12 +11,12 @@ def drawBox(x, y, width, height, color, titleBar):
 	if height == 0:
 		height = 1
 	
-	
-	if (color == "white"):
-		glColor3f(1.0, 1.0, 1.0)
-	else:
-		glColor3f(0.8, 0.8, 0.8)
-
+	(r, g, b) = color
+	#if (color == "white"):
+	#	glColor3f(1.0, 1.0, 1.0)
+	#else:
+	#	glColor3f(0.8, 0.8, 0.8)
+	glColor3f(r, g, b)
 	glBegin(GL_QUADS)
 	glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
 	glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
@@ -59,8 +59,9 @@ class Board():
 			# for widget in l:
 			# 	#glTranslatef(x, y, 0)
 			# 	drawBox(widget.x, widget.y, widget.w, widget.h, widget.color, True)
-			drawCircle(C, 50, 50, 15, "bleu")
-			drawCircle(C, 150, 150, 15, "bleu")
+			#drawCircle(C, 50, 50, 15, "bleu")
+			#drawCircle(C, 150, 150, 15, "bleu")
+			#drawBox(0, 0, 900, 550, "white", False)
 			glLoadIdentity()
 			glutSwapBuffers()
 			gluDeleteQuadric(C)
@@ -117,7 +118,7 @@ class Board():
 		glutMainLoop()
 	
 	def InitGL(self):
-		glClearColor(0.0, 0.0, 0.0, 0.0)
+		glClearColor(1.0, 1.0, 1.0, 1.0)
 		glMatrixMode(GL_PROJECTION)
 		glLoadIdentity()
 		glOrtho(0, 800, 600, 0, 0, 1)

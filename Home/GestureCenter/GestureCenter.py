@@ -1,6 +1,7 @@
 from Gestures import *
 from math import *
-
+sys.path[:0] = ['../../']
+from CoordTransformer.CoordTransformer import *
 
 ## Class : GestureCenter<br/>
 ## This object managed a set of Gestures
@@ -13,6 +14,7 @@ class GestureCenter:
 	##
 	def __init__(self):
 		self.gestureList =[] 
+		self.maxBruit = 100
 
 	## Funtion init<br/>
 	## Arguments :no<br/>
@@ -40,7 +42,9 @@ class GestureCenter:
 	## Note : add the new coordonate to the right gestures
 	## Return : no
 	##
-	def addNewInformation(self, l):
+	def addNewInformation(self, l, camMod = False):
+		coord_center = CoordTransformer()
+		coord_center.setInfo(640, 480, 900, 550)
 		i = int(l[1])
 		typ = l[0]
 		x = -1.
@@ -48,19 +52,33 @@ class GestureCenter:
 		if (len(l) > 2):
 		 	x = int(l[2])
 		 	y = int(l[3])
+			if camMod:
+				(x, y) = coord_center.newCoord(x, y)
+				#print (x, y)
 		d = 0.
 		maxd = -1.
-		if len(self.gestureList) == 0:
+		# down & rien
+		if len(self.gestureList) == 0 and typ != "up":
 			self.newCoordonate(i, typ, x, y)
-		else:
+		elif len(self.gestureList) > 0 and typ == "up":
+			self.newCoordonate(i, typ, x, y)
+		elif len(self.gestureList) > 0 and typ == "down":
+			lastG = None
 			for g in self.gestureList:
 				(sx, sy, sx0, sy0, t) = g.getCoordonate()
-				g.printGesture()
+				#g.printGesture()
 				d = self.distance(x, y, sx, sy)
-				if d <= maxd or maxd == -1:
+				print "D = ", d, "<", x, y, "> <", sx, sy, ">"
+				if (d <= maxd or maxd == -1) and d <= self.maxBruit:
 					maxd = d
+					lastG = g
 					i = g.getId()
-			self.newCoordonate(i, typ, x, y)
+			if not lastG is None:
+				lastG.printGesture()
+			if (maxd != -1):
+				self.newCoordonate(i, typ, x, y)
+			#else:
+			#	print "Trop de bruit"
 		
 	## Funtion newCoordonateForGesture<br/>
 	## Arguments :<br/>
@@ -109,3 +127,12 @@ class GestureCenter:
 			n = len(self.gestureList) + 1
 			self.addGesture(n - 1, x, y)
 		self.newCoordonateForGesture(n - 1, label, x, y)
+	
+	def destroyGesture(self):
+		i = 0
+		while (i < len(self.gestureList)):
+			if (self.gestureList[i].getCurrentNode().getValue() == "trash"):
+				self.gestureList.pop(i)
+			else:
+				i += 1
+		

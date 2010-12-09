@@ -70,8 +70,8 @@ class WidgetCenter:
 				if not w is None:
 					print w.tag
 					return w
-				else:
-					print "No view inside"
+				#else:
+				#	print "No view inside"
 		return None
 	
 	def displayOnGF(self):
@@ -84,3 +84,7 @@ class WidgetCenter:
 			if not r is None :
 				return r
 		return None
+	
+	def returnToNormal(self):
+		for w in self.widgetList:
+			w.goBackColor()

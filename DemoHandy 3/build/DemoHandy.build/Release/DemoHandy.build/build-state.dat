@@ -1,0 +1,181 @@
+TDemoHandy
+v7
+r0
+t300128034.378491
+cCheck dependencies
+cCompileC build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BD4C6FF00000000000000EE
+t1272235775
+s238
+
+N/System/Library/Frameworks/OpenCV.framework/OpenCV
+c000000004B5F12CE0000000000F01FCC
+t1264521934
+s15736780
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/DemoHandy
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList
+c000000004C335F990000000000000067
+t1278435225
+s103
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/DemoHandy
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/DemoHandy.LinkFileList
+c000000004C335F990000000000000066
+t1278435225
+s102
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/main.o
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/DemoHandy
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/DemoHandy.LinkFileList
+c000000004C335F990000000000000069
+t1278435225
+s105
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/Release/DemoHandy
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/build/Release/DemoHandy.dSYM
+t2
+s0
+
+N/Users/wavs/Desktop/DemoHandy/main.cpp
+c000000004C32AAB00000000000003B53
+t1278388912
+s15187
+i<opencv/cv.h>
+i<opencv/highgui.h>
+i<iostream>
+i<cstdio>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300128033#300128033#0(0"0(0#1#0"8616779552#0"0#
+
+CCompileC build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s300128033.679600
+e300128034.049823
+r0
+xCompileC
+xbuild/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/main.o
+x/Users/wavs/Desktop/DemoHandy/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/wavs/Desktop/DemoHandy/main.cpp:3:23: error: opencv/cv.h: No such file or directory
+o/Users/wavs/Desktop/DemoHandy/main.cpp:4:28: error: opencv/highgui.h: No such file or directory
+o/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: 'cv' is not a namespace-name
+o/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: expected namespace-name before ';' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:26: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:30: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:31: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:32: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:33: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:34: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: variable or field 'update_mhi' declared void
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'img' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'dst' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: expected primary-expression before 'int'
+lSLF07#2@46"Compile /Users/wavs/Desktop/DemoHandy/main.cpp300128033#300128034#0(1621"/Users/wavs/Desktop/DemoHandy/main.cpp:3:23: error: opencv/cv.h: No such file or directory/Users/wavs/Desktop/DemoHandy/main.cpp:4:28: error: opencv/highgui.h: No such file or directory/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: 'cv' is not a namespace-name/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: expected namespace-name before ';' token/Users/wavs/Desktop/DemoHandy/main.cpp:26: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:30: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:31: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:32: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:33: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:34: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: variable or field 'update_mhi' declared void/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'img' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'dst' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: expected primary-expression before 'int'16(4@38"Opencv/cv.h: No such file or directory300128033#0#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#3#0#3#0#28"*: No such file or directory0(4@43"Opencv/highgui.h: No such file or directory300128033#91#96#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#4#0#4#0#28"*: No such file or directory0(4@28"'cv' is not a namespace-name300128034#187#79#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#10#0#10#0#0"0(4@40"Expected namespace-name before ';' token300128034#266#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#10#0#10#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#357#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#26#0#26#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#477#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#30#0#30#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#597#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#31#0#31#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#717#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#32#0#32#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#837#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#33#0#33#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#957#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#34#0#34#0#19"expected * before *0(4@44"Variable or field 'update_mhi' declared void300128034#1077#95#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#0"0(4@41"'IplImage' was not declared in this scope300128034#1172#92#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@36"'img' was not declared in this scope300128034#1264#87#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@41"'IplImage' was not declared in this scope300128034#1351#92#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@36"'dst' was not declared in this scope300128034#1443#87#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@40"Expected primary-expression before 'int'300128034#1530#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#19"expected * before *0(0#0#38"/Users/wavs/Desktop/DemoHandy/main.cpp8616690048#1258"    cd /Users/wavs/Desktop/DemoHandy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-generated-files.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-own-target-headers.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-all-target-headers.hmap -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-project-headers.hmap -F/Users/wavs/Desktop/DemoHandy/build/Release -I/Users/wavs/Desktop/DemoHandy/build/Release/include -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DerivedSources/i386 -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DerivedSources -c /Users/wavs/Desktop/DemoHandy/main.cpp -o /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/main.o1#
+
+CCompileC build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s300128034.044637
+e300128034.378408
+r0
+xCompileC
+xbuild/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/main.o
+x/Users/wavs/Desktop/DemoHandy/main.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/wavs/Desktop/DemoHandy/main.cpp:3:23: error: opencv/cv.h: No such file or directory
+o/Users/wavs/Desktop/DemoHandy/main.cpp:4:28: error: opencv/highgui.h: No such file or directory
+o/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: 'cv' is not a namespace-name
+o/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: expected namespace-name before ';' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:26: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:30: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:31: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:32: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:33: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:34: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: variable or field 'update_mhi' declared void
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'img' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'dst' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: expected primary-expression before 'int'
+lSLF07#2@46"Compile /Users/wavs/Desktop/DemoHandy/main.cpp300128034#300128034#0(1621"/Users/wavs/Desktop/DemoHandy/main.cpp:3:23: error: opencv/cv.h: No such file or directory/Users/wavs/Desktop/DemoHandy/main.cpp:4:28: error: opencv/highgui.h: No such file or directory/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: 'cv' is not a namespace-name/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: expected namespace-name before ';' token/Users/wavs/Desktop/DemoHandy/main.cpp:26: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:30: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:31: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:32: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:33: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:34: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: variable or field 'update_mhi' declared void/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'img' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'dst' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: expected primary-expression before 'int'16(4@38"Opencv/cv.h: No such file or directory300128034#0#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#3#0#3#0#28"*: No such file or directory0(4@43"Opencv/highgui.h: No such file or directory300128034#91#96#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#4#0#4#0#28"*: No such file or directory0(4@28"'cv' is not a namespace-name300128034#187#79#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#10#0#10#0#0"0(4@40"Expected namespace-name before ';' token300128034#266#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#10#0#10#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#357#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#26#0#26#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#477#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#30#0#30#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#597#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#31#0#31#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#717#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#32#0#32#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#837#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#33#0#33#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#957#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#34#0#34#0#19"expected * before *0(4@44"Variable or field 'update_mhi' declared void300128034#1077#95#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#0"0(4@41"'IplImage' was not declared in this scope300128034#1172#92#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@36"'img' was not declared in this scope300128034#1264#87#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@41"'IplImage' was not declared in this scope300128034#1351#92#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@36"'dst' was not declared in this scope300128034#1443#87#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@40"Expected primary-expression before 'int'300128034#1530#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#19"expected * before *0(0#0#38"/Users/wavs/Desktop/DemoHandy/main.cpp8616717088#1265"    cd /Users/wavs/Desktop/DemoHandy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-generated-files.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-own-target-headers.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-all-target-headers.hmap -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-project-headers.hmap -F/Users/wavs/Desktop/DemoHandy/build/Release -I/Users/wavs/Desktop/DemoHandy/build/Release/include -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DerivedSources/ppc -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DerivedSources -c /Users/wavs/Desktop/DemoHandy/main.cpp -o /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/main.o1#
+
+CCompileC build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s300128033.678681
+e300128034.044283
+r0
+xCompileC
+xbuild/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/main.o
+x/Users/wavs/Desktop/DemoHandy/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/wavs/Desktop/DemoHandy/main.cpp:3:23: error: opencv/cv.h: No such file or directory
+o/Users/wavs/Desktop/DemoHandy/main.cpp:4:28: error: opencv/highgui.h: No such file or directory
+o/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: 'cv' is not a namespace-name
+o/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: expected namespace-name before ';' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:26: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:30: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:31: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:32: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:33: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:34: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: variable or field 'update_mhi' declared void
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'img' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'dst' was not declared in this scope
+o/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: expected primary-expression before 'int'
+lSLF07#2@46"Compile /Users/wavs/Desktop/DemoHandy/main.cpp300128033#300128034#0(1621"/Users/wavs/Desktop/DemoHandy/main.cpp:3:23: error: opencv/cv.h: No such file or directory/Users/wavs/Desktop/DemoHandy/main.cpp:4:28: error: opencv/highgui.h: No such file or directory/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: 'cv' is not a namespace-name/Users/wavs/Desktop/DemoHandy/main.cpp:10: error: expected namespace-name before ';' token/Users/wavs/Desktop/DemoHandy/main.cpp:26: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:30: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:31: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:32: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:33: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:34: error: expected constructor, destructor, or type conversion before '*' token/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: variable or field 'update_mhi' declared void/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'img' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'IplImage' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: 'dst' was not declared in this scope/Users/wavs/Desktop/DemoHandy/main.cpp:42: error: expected primary-expression before 'int'16(4@38"Opencv/cv.h: No such file or directory300128033#0#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#3#0#3#0#28"*: No such file or directory0(4@43"Opencv/highgui.h: No such file or directory300128033#91#96#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#4#0#4#0#28"*: No such file or directory0(4@28"'cv' is not a namespace-name300128034#187#79#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#10#0#10#0#0"0(4@40"Expected namespace-name before ';' token300128034#266#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#10#0#10#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#357#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#26#0#26#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#477#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#30#0#30#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#597#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#31#0#31#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#717#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#32#0#32#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#837#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#33#0#33#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token300128034#957#120#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#34#0#34#0#19"expected * before *0(4@44"Variable or field 'update_mhi' declared void300128034#1077#95#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#0"0(4@41"'IplImage' was not declared in this scope300128034#1172#92#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@36"'img' was not declared in this scope300128034#1264#87#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@41"'IplImage' was not declared in this scope300128034#1351#92#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@36"'dst' was not declared in this scope300128034#1443#87#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#34"'*' was not declared in this scope0(4@40"Expected primary-expression before 'int'300128034#1530#91#0(6@38"/Users/wavs/Desktop/DemoHandy/main.cpp300081712#42#0#42#0#19"expected * before *0(0#0#38"/Users/wavs/Desktop/DemoHandy/main.cpp8616714944#1264"    cd /Users/wavs/Desktop/DemoHandy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-generated-files.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-own-target-headers.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-all-target-headers.hmap -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DemoHandy-project-headers.hmap -F/Users/wavs/Desktop/DemoHandy/build/Release -I/Users/wavs/Desktop/DemoHandy/build/Release/include -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/DerivedSources -c /Users/wavs/Desktop/DemoHandy/main.cpp -o /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/main.o1#
+
+CCreateUniversalBinary /Users/wavs/Desktop/DemoHandy/build/Release/DemoHandy normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile /Users/wavs/Desktop/DemoHandy/build/Release/DemoHandy.dSYM /Users/wavs/Desktop/DemoHandy/build/Release/DemoHandy
+r0
+
+CLd /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/i386/DemoHandy normal i386
+r0
+
+CLd /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/ppc/DemoHandy normal ppc
+r0
+
+CLd /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Release/DemoHandy.build/Objects-normal/x86_64/DemoHandy normal x86_64
+r0
+

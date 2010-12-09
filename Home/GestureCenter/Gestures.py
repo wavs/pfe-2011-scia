@@ -38,7 +38,7 @@ class Gestures:
 	## Return : no
 	##	
 	def printGesture(self):
-		print self.coordx, self.coordy, self.coordxo, self.coordyo, self.g.getCurrentNode().getValue()
+		print self.id, "<",self.coordx,",",self.coordy,">", "<",self.coordxo,",",self.coordyo,">", self.g.getCurrentNode().getValue()
 
 	## Funtion getCoordonate<br/>
 	## Arguments :no<br/>
@@ -62,18 +62,18 @@ class Gestures:
 	## Return : no
 	##
 	def addMove(self, label, x = -1, y = -1):
-		self.changeCurrentUp(label)
-		if (label != "up") or (self.nbCurrentUp == self.nbUpMax and label == "up"):
-			self.moveLabel = label
-			self.history.append((x, y))
-			if len(self.history) >= 25:
-				self.history.pop()
-			self.isPress(x, y)
-			self.t = self.t + 1
-			self.isLongTime()
-			self.isUp()
-			self.g.moveCurrentNode(self.moveLabel, self.moveCondition)
-			self.sendNotificationMove()
+		#self.changeCurrentUp(label)
+		#if (label != "up") or (self.nbCurrentUp == self.nbUpMax and label == "up"):
+		self.moveLabel = label
+		self.history.append((x, y))
+		if len(self.history) >= 25:
+			self.history.pop()
+		self.isPress(x, y)
+		self.t = self.t + 1
+		self.isLongTime()
+		self.isUp()
+		self.g.moveCurrentNode(self.moveLabel, self.moveCondition)
+		self.sendNotificationMove()
 	
 	
 	## Funtion sendNotificationMove<br/>
@@ -83,7 +83,8 @@ class Gestures:
 	##
 	def sendNotificationMove(self):
 		center = MoveNotificationCenter()
-		center.sendNotification(Notification(self.g.getCurrentNode().getValue(), self.coordx, self.coordy, self.coordxo, self.coordyo, self.id))
+		if (self.g.getCurrentNode().getValue() != "trash"):
+			center.sendNotification(Notification(self.g.getCurrentNode().getValue(), self.coordx, self.coordy, self.coordxo, self.coordyo, self.id))
 
 	## Funtion getId<br/>
 	## Arguments :no<br/>
