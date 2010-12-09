@@ -90,6 +90,7 @@ class SRView:
 		self.h = size[1]
 		self.tag = tag
 		self.color = color
+		self.refColor = color
 		self.container = container
 		self.subView = []
 		self.id = id
@@ -115,17 +116,19 @@ class SRView:
 		return False
 	
 	def onPress(self, Notif):
+		self.color = (1.0, 1.0, 1.0)
 		if not self.container is None:
 			self.container.onPress(Notif)
 	
 	def onMove(self, Notif):
+		self.color = (1.0, 1.0, 1.0)
 		if not self.container is None:
 			self.container.onMove(Notif)
 		else:
 			(x, y) = Notif.getxy()
 			(x0, y0) = Notif.getx0y0()
-			self.x = self.x + x - x0
-			self.y = self.y + y - y0
+			self.x = x - self.w / 2
+			self.y = y - self.h / 2
 	
 	def onClick(self, Notif):
 		if not self.container is None:
@@ -163,10 +166,14 @@ class SRView:
 
 	def display(self):
 		gf = GfCenter()
-		gf.drawMeSquare(self.x, self.y, self.w, self.h, self.color)
+		gf.drawMeSquare(self.x, self.y, self.w, self.h, (self.color[0], self.color[1], self.color[2]))
 		for v in self.subView:
 			v.display()
+	#	self.color = self.refColor
 	
 	def exit(self):
 		if not self.container is None:
 			self.container.onClick(Notif)
+	
+	def goBackColor(self):
+		self.color = self.refColor

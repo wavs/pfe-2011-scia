@@ -1,0 +1,1164 @@
+TDemoHandy
+v7
+r0
+t310932408.960406
+cCheck dependencies
+cCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/DemoHandy" normal i386
+cPBXCp build/Debug/OpenCV.framework /System/Library/Frameworks/OpenCV.framework
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BD4C6FF00000000000000EE
+t1272235775
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h
+c000000004AC59C810000000000000588
+t1254464641
+s1416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004AC59C810000000000000DCB
+t1254464641
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004AC59DB7000000000000EA8F
+t1254464951
+s60047
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004AC59DB70000000000001538
+t1254464951
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004AC59DB70000000000000C7E
+t1254464951
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mmintrin.h
+c000000004AC59DB70000000000009260
+t1254464951
+s37472
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004ABC73270000000000000AE9
+t1253864231
+s2793
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004AC59DB7000000000000190C
+t1254464951
+s6412
+
+N/Developer/usr/include/gcc/darwin/4.2/stdint.h
+c000000004B569401000000000000190C
+t1263965185
+s6412
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004B568FAE000000000000EA8F
+t1263964078
+s60047
+i<xmmintrin.h>
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004B568FAE0000000000001538
+t1263964078
+s5432
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004B568FAE0000000000000C7E
+t1263964078
+s3198
+i"syslimits.h"
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mm_malloc.h
+c000000004B568FAE000000000000093D
+t1263964078
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mmintrin.h
+c000000004B568FAE0000000000009260
+t1263964078
+s37472
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004B568FD80000000000000AE9
+t1263964120
+s2793
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004B568E670000000000000155
+t1263963751
+s341
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/xmmintrin.h
+c000000004B568FAE000000000000BECA
+t1263964078
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+N/System/Library/Frameworks/OpenCV.framework
+c00000000496B6EAE00000000000000EE
+t1231777454
+s238
+
+N/System/Library/Frameworks/OpenCV.framework/Headers/cv.h
+c000000004B5F12700000000000011693
+t1264521840
+s71315
+
+N/System/Library/Frameworks/OpenCV.framework/Headers/highgui.h
+c000000004B5F12700000000000004740
+t1264521840
+s18240
+
+N/System/Library/Frameworks/OpenCV.framework/OpenCV
+c00000000496B6F6E0000000000646154
+t1231777646
+s6578516
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/DemoHandy
+t1289224848
+s70684
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework
+t1287429712
+s238
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cv.h
+c000000004CBC7EBA0000000000011693
+t1287421626
+s71315
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cv.hpp
+c000000004CBC7EBA000000000000AB79
+t1287421626
+s43897
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cvcompat.h
+c000000004CBC7EBA0000000000009EE6
+t1287421626
+s40678
+i<string.h>
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cvtypes.h
+c000000004CBC7EBA00000000000030D7
+t1287421626
+s12503
+i<assert.h>
+i<stdlib.h>
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cvver.h
+c000000004CBC7EBA00000000000009EA
+t1287421626
+s2538
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxcore.h
+c000000004CBC7EBA00000000000155CA
+t1287421626
+s87498
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxcore.hpp
+c000000004CBC7EBA0000000000013E4E
+t1287421626
+s81486
+i"cxmisc.h"
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"cxoperations.hpp"
+i"cxmat.hpp"
+i"cxflann.h"
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxerror.h
+c000000004CBC7EBA0000000000002235
+t1287421626
+s8757
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxflann.h
+c000000004CBC7EBA0000000000001B19
+t1287421626
+s6937
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxmat.hpp
+c000000004CBC7EBA0000000000025125
+t1287421626
+s151845
+i<limits.h>
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxmisc.h
+c000000004CBC7EBA0000000000006D9D
+t1287421626
+s28061
+i"cvconfig.h"
+i<limits.h>
+i"omp.h"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxoperations.hpp
+c000000004CBC7EBA00000000000150B6
+t1287421626
+s86198
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxtypes.h
+c000000004CBC7EBA000000000000CF7E
+t1287421626
+s53118
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<emmintrin.h>
+i<mmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/highgui.h
+c000000004CBC7EBA0000000000004740
+t1287421626
+s18240
+i"cxcore.h"
+i<windows.h>
+i<chdl.h>
+i"highgui.hpp"
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/OpenCV.framework/Headers/highgui.hpp
+c000000004CBC7EBA0000000000001266
+t1287421626
+s4710
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList
+c000000004CD287DD000000000000008D
+t1288865757
+s141
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+t1289224845
+s255052
+
+N/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp
+c000000004CD802880000000000004A5A
+t1289224840
+s19034
+i<iostream>
+i<cstdio>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<string.h>
+i<opencv/cv.h>
+i<opencv/highgui.h>
+i<iostream>
+i<cstdio>
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/DemoHandy
+t1288805187
+s70648
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework
+t1287429712
+s238
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cv.h
+c000000004CBC7EBA0000000000011693
+t1287421626
+s71315
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cv.hpp
+c000000004CBC7EBA000000000000AB79
+t1287421626
+s43897
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cvcompat.h
+c000000004CBC7EBA0000000000009EE6
+t1287421626
+s40678
+i<string.h>
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cvtypes.h
+c000000004CBC7EBA00000000000030D7
+t1287421626
+s12503
+i<assert.h>
+i<stdlib.h>
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cvver.h
+c000000004CBC7EBA00000000000009EA
+t1287421626
+s2538
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxcore.h
+c000000004CBC7EBA00000000000155CA
+t1287421626
+s87498
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxcore.hpp
+c000000004CBC7EBA0000000000013E4E
+t1287421626
+s81486
+i"cxmisc.h"
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"cxoperations.hpp"
+i"cxmat.hpp"
+i"cxflann.h"
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxerror.h
+c000000004CBC7EBA0000000000002235
+t1287421626
+s8757
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxflann.h
+c000000004CBC7EBA0000000000001B19
+t1287421626
+s6937
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxmat.hpp
+c000000004CBC7EBA0000000000025125
+t1287421626
+s151845
+i<limits.h>
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxmisc.h
+c000000004CBC7EBA0000000000006D9D
+t1287421626
+s28061
+i"cvconfig.h"
+i<limits.h>
+i"omp.h"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxoperations.hpp
+c000000004CBC7EBA00000000000150B6
+t1287421626
+s86198
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/cxtypes.h
+c000000004CBC7EBA000000000000CF7E
+t1287421626
+s53118
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<emmintrin.h>
+i<mmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/highgui.h
+c000000004CBC7EBA0000000000004740
+t1287421626
+s18240
+i"cxcore.h"
+i<windows.h>
+i<chdl.h>
+i"highgui.hpp"
+
+N/Users/Alex/Downloads/DemoHandy 3/build/Debug/OpenCV.framework/Headers/highgui.hpp
+c000000004CBC7EBA0000000000001266
+t1287421626
+s4710
+
+N/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList
+c000000004CBC9E550000000000000069
+t1287429717
+s105
+
+N/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+t1288805185
+s255124
+
+N/Users/Alex/Downloads/DemoHandy 3/main.cpp
+c000000004CD19BBF0000000000004A1F
+t1288805311
+s18975
+i<iostream>
+i<cstdio>
+i<sys/types.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<netdb.h>
+i<string.h>
+i<opencv/cv.h>
+i<opencv/highgui.h>
+i<iostream>
+i<cstdio>
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cv.h
+c000000004C335FFB0000000000011693
+t1278435323
+s71315
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cv.hpp
+c000000004C335FFB000000000000AB79
+t1278435323
+s43897
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cvcompat.h
+c000000004C335FFB0000000000009EE6
+t1278435323
+s40678
+i<string.h>
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cvtypes.h
+c000000004C335FFB00000000000030D7
+t1278435323
+s12503
+i<assert.h>
+i<stdlib.h>
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cvver.h
+c000000004C335FFB00000000000009EA
+t1278435323
+s2538
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxcore.h
+c000000004C335FFB00000000000155CA
+t1278435323
+s87498
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxcore.hpp
+c000000004C335FFB0000000000013E4E
+t1278435323
+s81486
+i"cxmisc.h"
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"cxoperations.hpp"
+i"cxmat.hpp"
+i"cxflann.h"
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxerror.h
+c000000004C335FFB0000000000002235
+t1278435323
+s8757
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxflann.h
+c000000004C335FFB0000000000001B19
+t1278435323
+s6937
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxmat.hpp
+c000000004C335FFB0000000000025125
+t1278435323
+s151845
+i<limits.h>
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxmisc.h
+c000000004C335FFB0000000000006D9D
+t1278435323
+s28061
+i"cvconfig.h"
+i<limits.h>
+i"omp.h"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxoperations.hpp
+c000000004C335FFB00000000000150B6
+t1278435323
+s86198
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/cxtypes.h
+c000000004C335FFB000000000000CF7E
+t1278435323
+s53118
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<emmintrin.h>
+i<mmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/highgui.h
+c000000004C335FFB0000000000004740
+t1278435323
+s18240
+i"cxcore.h"
+i<windows.h>
+i<chdl.h>
+i"highgui.hpp"
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/Headers/highgui.hpp
+c000000004C335FFB0000000000001266
+t1278435323
+s4710
+
+N/Users/wavs/Desktop/DemoHandy/OpenCV.framework/OpenCV
+c000000004C335FFC0000000000F01FCC
+t1278435324
+s15736780
+
+N/Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy
+t1278435784
+s63980
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList
+c000000004C3360860000000000000065
+t1278435462
+s101
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+t1278435784
+s239548
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/DemoHandy.LinkFileList
+c000000004C335EEC0000000000000067
+t1278435052
+s103
+
+N/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/main.o
+t1278435384
+s246472
+
+N/Users/wavs/Desktop/DemoHandy/main.cpp
+c000000004C3361C50000000000003B53
+t1278435781
+s15187
+i<opencv/cv.h>
+i<opencv/highgui.h>
+i<iostream>
+i<cstdio>
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cv.h
+c000000004C335FFB0000000000011693
+t1278435323
+s71315
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cv.hpp
+c000000004C335FFB000000000000AB79
+t1278435323
+s43897
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cvcompat.h
+c000000004C335FFB0000000000009EE6
+t1278435323
+s40678
+i<string.h>
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cvtypes.h
+c000000004C335FFB00000000000030D7
+t1278435323
+s12503
+i<assert.h>
+i<stdlib.h>
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cvver.h
+c000000004C335FFB00000000000009EA
+t1278435323
+s2538
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxcore.h
+c000000004C335FFB00000000000155CA
+t1278435323
+s87498
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxcore.hpp
+c000000004C335FFB0000000000013E4E
+t1278435323
+s81486
+i"cxmisc.h"
+i<algorithm>
+i<cmath>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i"cxoperations.hpp"
+i"cxmat.hpp"
+i"cxflann.h"
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxerror.h
+c000000004C335FFB0000000000002235
+t1278435323
+s8757
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxflann.h
+c000000004C335FFB0000000000001B19
+t1278435323
+s6937
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxmat.hpp
+c000000004C335FFB0000000000025125
+t1278435323
+s151845
+i<limits.h>
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxmisc.h
+c000000004C335FFB0000000000006D9D
+t1278435323
+s28061
+i"cvconfig.h"
+i<limits.h>
+i"omp.h"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxoperations.hpp
+c000000004C335FFB00000000000150B6
+t1278435323
+s86198
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i"windows.h"
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/cxtypes.h
+c000000004C335FFB000000000000CF7E
+t1278435323
+s53118
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<emmintrin.h>
+i<mmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/highgui.h
+c000000004C335FFB0000000000004740
+t1278435323
+s18240
+i"cxcore.h"
+i<windows.h>
+i<chdl.h>
+i"highgui.hpp"
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/Headers/highgui.hpp
+c000000004C335FFB0000000000001266
+t1278435323
+s4710
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/OpenCV.framework/OpenCV
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/DemoHandy
+t1287421626
+s64060
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/OpenCV.framework
+t1287421626
+s238
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList
+c000000004CBC7EB30000000000000094
+t1287421619
+s148
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+t1287421625
+s239628
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/DemoHandy.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp
+c000000004C3361C50000000000003B53
+t1278435781
+s15187
+i<opencv/cv.h>
+i<opencv/highgui.h>
+i<iostream>
+i<cstdio>
+
+N/usr/include/alloca.h
+c000000004AC326060000000000000588
+t1254303238
+s1416
+
+N/usr/include/assert.h
+c000000004AC326060000000000000DCB
+t1254303238
+s3531
+
+N/usr/include/errno.h
+c000000004AC3260600000000000003EB
+t1254303238
+s1003
+
+N/usr/include/math.h
+c000000004AC320BA00000000000004F1
+t1254301882
+s1265
+
+N/usr/include/netdb.h
+c000000004AC31F4D0000000000003057
+t1254301517
+s12375
+
+N/usr/include/netinet/in.h
+c000000004B56971B000000000000539D
+t1263965979
+s21405
+
+N/usr/include/stdlib.h
+c000000004AC326060000000000002DF5
+t1254303238
+s11765
+
+N/usr/include/string.h
+c000000004AC326060000000000001731
+t1254303238
+s5937
+
+N/usr/include/sys/socket.h
+c000000004B56971E00000000000059BC
+t1263965982
+s22972
+
+N/usr/include/sys/types.h
+c000000004B56971E0000000000002905
+t1263965982
+s10501
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004B568FAE000000000000EA8F
+t1263964078
+s60047
+i<xmmintrin.h>
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004B568FAE0000000000001538
+t1263964078
+s5432
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004B568FAE0000000000000C7E
+t1263964078
+s3198
+i"syslimits.h"
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mm_malloc.h
+c000000004B568FAE000000000000093D
+t1263964078
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mmintrin.h
+c000000004B568FAE0000000000009260
+t1263964078
+s37472
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/omp.h
+c000000004B568FD80000000000000AE9
+t1263964120
+s2793
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004B569401000000000000190C
+t1263965185
+s6412
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004B568E670000000000000155
+t1263963751
+s341
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/xmmintrin.h
+c000000004B568FAE000000000000BECA
+t1263964078
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310932408#310932408#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s310917647.468878
+e310917647.539720
+r1
+xCompileC
+xbuild/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+x/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp310917647#310917647#0(0"0(0#0#78"/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp7381451884686701568#1691"    cd "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-generated-files.hmap" "-I/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-own-target-headers.hmap" "-I/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-all-target-headers.hmap" -iquote "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-project-headers.hmap" "-F/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug" "-F/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3" "-I/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/include" "-I/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources/i386" "-I/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources" -c "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/main.cpp" -o "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o "/Users/Alex/Downloads/DemoHandy 3/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s310497987.048956
+e310497987.050522
+r1
+xCompileC
+xbuild/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+x/Users/Alex/Downloads/DemoHandy 3/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/Alex/Downloads/DemoHandy 3/main.cpp310497987#310497987#0(0"0(0#0#42"/Users/Alex/Downloads/DemoHandy 3/main.cpp4300911832#1259"    cd "/Users/Alex/Downloads/DemoHandy 3"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-generated-files.hmap" "-I/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-own-target-headers.hmap" "-I/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-all-target-headers.hmap" -iquote "/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-project-headers.hmap" "-F/Users/Alex/Downloads/DemoHandy 3/build/Debug" "-F/Users/Alex/Downloads/DemoHandy 3" "-I/Users/Alex/Downloads/DemoHandy 3/build/Debug/include" "-I/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources/i386" "-I/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources" -c "/Users/Alex/Downloads/DemoHandy 3/main.cpp" -o "/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s309114419.853333
+e309114425.442955
+r1
+xCompileC
+xbuild/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+x/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp309114419#309114425#0(0"0(0#0#85"/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp8636284544#1775"    cd "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-generated-files.hmap" "-I/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-own-target-headers.hmap" "-I/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-all-target-headers.hmap" -iquote "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-project-headers.hmap" "-F/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug" "-F/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy" "-I/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/include" "-I/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources/i386" "-I/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources" -c "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp" -o "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s300128583.520947
+e300128584.554691
+r1
+xCompileC
+xbuild/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o
+x/Users/wavs/Desktop/DemoHandy/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/wavs/Desktop/DemoHandy/main.cpp300128583#300128584#0(0"0(0#0#38"/Users/wavs/Desktop/DemoHandy/main.cpp8617355904#1187"    cd /Users/wavs/Desktop/DemoHandy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-generated-files.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-own-target-headers.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-all-target-headers.hmap -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-project-headers.hmap -F/Users/wavs/Desktop/DemoHandy/build/Debug -F/Users/wavs/Desktop/DemoHandy -I/Users/wavs/Desktop/DemoHandy/build/Debug/include -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources/i386 -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources -c /Users/wavs/Desktop/DemoHandy/main.cpp -o /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/main.o0#
+
+CCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/main.o "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/main.o /Users/wavs/Desktop/DemoHandy/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s300128182.875775
+e300128184.048187
+r1
+xCompileC
+xbuild/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/main.o
+x/Users/wavs/Desktop/DemoHandy/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/wavs/Desktop/DemoHandy/main.cpp300128182#300128184#0(0"0(0#0#38"/Users/wavs/Desktop/DemoHandy/main.cpp8618999104#1193"    cd /Users/wavs/Desktop/DemoHandy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-generated-files.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-own-target-headers.hmap -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-all-target-headers.hmap -iquote /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DemoHandy-project-headers.hmap -F/Users/wavs/Desktop/DemoHandy/build/Debug -F/Users/wavs/Desktop/DemoHandy -I/Users/wavs/Desktop/DemoHandy/build/Debug/include -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources/x86_64 -I/Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/DerivedSources -c /Users/wavs/Desktop/DemoHandy/main.cpp -o /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/main.o0#
+
+CLd "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/DemoHandy" normal i386
+s310917647.539802
+e310917648.075943
+r1
+xLd
+x/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/DemoHandy
+xnormal
+xi386
+lSLF07#2@96"Link /Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/DemoHandy310917647#310917648#0(0"0(0#0#0"4300911832#651"    cd "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug" "-F/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug" "-F/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3" -filelist "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList" -framework OpenCV -o "/Users/Alex/Documents/Programation/pfe_scia/pfe-2011-scia/DemoHandy 3/build/Debug/DemoHandy"0#
+
+CLd "/Users/Alex/Downloads/DemoHandy 3/build/Debug/DemoHandy" normal i386
+s310497987.050598
+e310497987.121670
+r1
+xLd
+x/Users/Alex/Downloads/DemoHandy 3/build/Debug/DemoHandy
+xnormal
+xi386
+lSLF07#2@60"Link /Users/Alex/Downloads/DemoHandy 3/build/Debug/DemoHandy310497987#310497987#0(0"0(0#0#0"4300911832#435"    cd "/Users/Alex/Downloads/DemoHandy 3"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Users/Alex/Downloads/DemoHandy 3/build/Debug" "-F/Users/Alex/Downloads/DemoHandy 3/build/Debug" "-F/Users/Alex/Downloads/DemoHandy 3" -filelist "/Users/Alex/Downloads/DemoHandy 3/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList" -framework OpenCV -o "/Users/Alex/Downloads/DemoHandy 3/build/Debug/DemoHandy"0#
+
+CLd "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/DemoHandy" normal i386
+s309114425.443179
+e309114426.283860
+r1
+xLd
+x/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/DemoHandy
+xnormal
+xi386
+lSLF07#2@103"Link /Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/DemoHandy309114425#309114426#0(0"0(0#0#0"8618419392#693"    cd "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug" "-F/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug" "-F/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy" -filelist "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList" -framework OpenCV -o "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/DemoHandy"0#
+
+CLd "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug/DemoHandy" normal x86_64
+r0
+
+CLd /Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy normal i386
+s300128584.554797
+e300128584.585722
+r1
+xLd
+x/Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy
+xnormal
+xi386
+lSLF07#2@56"Link /Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy300128584#300128584#0(0"0(0#0#0"8619898400#399"    cd /Users/wavs/Desktop/DemoHandy    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/wavs/Desktop/DemoHandy/build/Debug -F/Users/wavs/Desktop/DemoHandy/build/Debug -F/Users/wavs/Desktop/DemoHandy -filelist /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/i386/DemoHandy.LinkFileList -framework OpenCV -o /Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy0#
+
+CLd /Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy normal x86_64
+s300128249.997313
+e300128250.058795
+r0
+xLd
+x/Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy
+xnormal
+xx86_64
+old: warning: in /Users/wavs/Desktop/DemoHandy/OpenCV.framework/OpenCV, missing required architecture x86_64 in file
+oUndefined symbols:
+o  "_cvResetImageROI", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvGetTickFrequency", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "cv::cvtColor(cv::Mat const&, cv::Mat&, int, int)", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvCreateFileCapture", referenced from:
+o      _main in main.o
+o  "cv::flip(cv::Mat const&, cv::Mat&, int)", referenced from:
+o      _main in main.o
+o  "cv::fastFree(void*)", referenced from:
+o      cv::Mat::release()    in main.o
+o  "_cvNamedWindow", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "cv::CascadeClassifier::~CascadeClassifier()", referenced from:
+o      _main in main.o
+o      _main in main.o
+o      _main in main.o
+o      _main in main.o
+o  "_cvDestroyWindow", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "_cvSetZero", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      _main in main.o
+o  "_cvQueryFrame", referenced from:
+o      _main in main.o
+o  "_cvThreshold", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvSegmentMotion", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvClearMemStorage", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::circle(cv::Mat&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvCreateMemStorage", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::equalizeHist(cv::Mat const&, cv::Mat&)", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "cv::fastMalloc(unsigned long)", referenced from:
+o      cv::Mat::create(int, int, int)in main.o
+o  "cv::Mat::copyTo(cv::Mat&) const", referenced from:
+o      _main in main.o
+o  "_cvShowImage", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvUpdateMotionHistory", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::waitKey(int)", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "cv::resize(cv::Mat const&, cv::Mat&, cv::Size_<int>, double, double, int)", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvGetSeqElem", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::CascadeClassifier::detectMultiScale(cv::Mat const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>)", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvCalcMotionGradient", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvAbsDiff", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::imshow(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::Mat const&)", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "cv::Mat::Mat(_IplImage const*, bool)", referenced from:
+o      _main in main.o
+o  "_cvGetTickCount", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvCvtColor", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvCalcGlobalOrientation", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvReleaseCapture", referenced from:
+o      _main in main.o
+o  "cv::CascadeClassifier::load(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "_cvLine", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::CascadeClassifier::empty() const", referenced from:
+o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o
+o  "_cvReleaseImage", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvCreateImage", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      _main in main.o
+o  "_cvNorm", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvSetImageROI", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "_cvConvertScale", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::CascadeClassifier::CascadeClassifier()", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "_cvCircle", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+o  "cv::error(cv::Exception const&)", referenced from:
+o      cv::Mat::create(int, int, int)in main.o
+o      cv::Mat::Mat(cv::Mat const&, cv::Rect_<int> const&)in main.o
+o  "_cvCreateCameraCapture", referenced from:
+o      _main in main.o
+o  "cv::imread(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "_cvMerge", referenced from:
+o      update_mhi(_IplImage*, _IplImage*, int)in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@56"Link /Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy300128249#300128250#0(7007"ld: warning: in /Users/wavs/Desktop/DemoHandy/OpenCV.framework/OpenCV, missing required architecture x86_64 in fileUndefined symbols:  "_cvResetImageROI", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvGetTickFrequency", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "cv::cvtColor(cv::Mat const&, cv::Mat&, int, int)", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvCreateFileCapture", referenced from:      _main in main.o  "cv::flip(cv::Mat const&, cv::Mat&, int)", referenced from:      _main in main.o  "cv::fastFree(void*)", referenced from:      cv::Mat::release()    in main.o  "_cvNamedWindow", referenced from:      _main in main.o      _main in main.o  "cv::CascadeClassifier::~CascadeClassifier()", referenced from:      _main in main.o      _main in main.o      _main in main.o      _main in main.o  "_cvDestroyWindow", referenced from:      _main in main.o      _main in main.o  "_cvSetZero", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      _main in main.o  "_cvQueryFrame", referenced from:      _main in main.o  "_cvThreshold", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvSegmentMotion", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvClearMemStorage", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::circle(cv::Mat&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvCreateMemStorage", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::equalizeHist(cv::Mat const&, cv::Mat&)", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "cv::fastMalloc(unsigned long)", referenced from:      cv::Mat::create(int, int, int)in main.o  "cv::Mat::copyTo(cv::Mat&) const", referenced from:      _main in main.o  "_cvShowImage", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvUpdateMotionHistory", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::waitKey(int)", referenced from:      _main in main.o      _main in main.o  "cv::resize(cv::Mat const&, cv::Mat&, cv::Size_<int>, double, double, int)", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvGetSeqElem", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::CascadeClassifier::detectMultiScale(cv::Mat const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>)", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvCalcMotionGradient", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvAbsDiff", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::imshow(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::Mat const&)", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "cv::Mat::Mat(_IplImage const*, bool)", referenced from:      _main in main.o  "_cvGetTickCount", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvCvtColor", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvCalcGlobalOrientation", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvReleaseCapture", referenced from:      _main in main.o  "cv::CascadeClassifier::load(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:      _main in main.o      _main in main.o  "_cvLine", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::CascadeClassifier::empty() const", referenced from:      detectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o  "_cvReleaseImage", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvCreateImage", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      _main in main.o  "_cvNorm", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvSetImageROI", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o      update_mhi(_IplImage*, _IplImage*, int)in main.o  "_cvConvertScale", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::CascadeClassifier::CascadeClassifier()", referenced from:      _main in main.o      _main in main.o  "_cvCircle", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.o  "cv::error(cv::Exception const&)", referenced from:      cv::Mat::create(int, int, int)in main.o      cv::Mat::Mat(cv::Mat const&, cv::Rect_<int> const&)in main.o  "_cvCreateCameraCapture", referenced from:      _main in main.o  "cv::imread(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:      _main in main.o      _main in main.o  "_cvMerge", referenced from:      update_mhi(_IplImage*, _IplImage*, int)in main.old: symbol(s) not foundcollect2: ld returned 1 exit status128(22@102"In /Users/wavs/Desktop/DemoHandy/OpenCV.framework/OpenCV, missing required architecture x86_64 in file300128250#0#116#0(6@0"300128250#0#0#0#0#0"0(4@36""_cvResetImageROI", referenced from:300128250#135#39#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#174#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#229#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#284#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#339#55#0(6@0"300128250#0#0#0#0#0"0(4@39""_cvGetTickFrequency", referenced from:300128250#394#42#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#436#119#0(6@0"300128250#0#0#0#0#0"0(4@68""cv::cvtColor(cv::Mat const&, cv::Mat&, int, int)", referenced from:300128250#555#71#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#626#119#0(6@0"300128250#0#0#0#0#0"0(4@40""_cvCreateFileCapture", referenced from:300128250#745#43#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#788#22#0(6@0"300128250#0#0#0#0#0"0(4@59""cv::flip(cv::Mat const&, cv::Mat&, int)", referenced from:300128250#810#62#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#872#22#0(6@0"300128250#0#0#0#0#0"0(4@39""cv::fastFree(void*)", referenced from:300128250#894#42#0(6@0"300128250#0#0#0#0#0"0(13@31"Cv::Mat::release()    in main.o300128250#936#38#0(6@0"300128250#0#0#0#0#0"0(4@34""_cvNamedWindow", referenced from:300128250#974#37#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1011#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1033#22#0(6@0"300128250#0#0#0#0#0"0(4@63""cv::CascadeClassifier::~CascadeClassifier()", referenced from:300128250#1055#66#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1121#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1143#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1165#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1187#22#0(6@0"300128250#0#0#0#0#0"0(4@36""_cvDestroyWindow", referenced from:300128250#1209#39#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1248#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1270#22#0(6@0"300128250#0#0#0#0#0"0(4@30""_cvSetZero", referenced from:300128250#1292#33#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#1325#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#1380#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#1435#55#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1490#22#0(6@0"300128250#0#0#0#0#0"0(4@33""_cvQueryFrame", referenced from:300128250#1512#36#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#1548#22#0(6@0"300128250#0#0#0#0#0"0(4@32""_cvThreshold", referenced from:300128250#1570#35#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#1605#55#0(6@0"300128250#0#0#0#0#0"0(4@36""_cvSegmentMotion", referenced from:300128250#1660#39#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#1699#55#0(6@0"300128250#0#0#0#0#0"0(4@38""_cvClearMemStorage", referenced from:300128250#1754#41#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#1795#55#0(6@0"300128250#0#0#0#0#0"0(4@105""cv::circle(cv::Mat&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)", referenced from:300128250#1850#108#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#1958#119#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#2077#119#0(6@0"300128250#0#0#0#0#0"0(4@39""_cvCreateMemStorage", referenced from:300128250#2196#42#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#2238#55#0(6@0"300128250#0#0#0#0#0"0(4@62""cv::equalizeHist(cv::Mat const&, cv::Mat&)", referenced from:300128250#2293#65#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#2358#119#0(6@0"300128250#0#0#0#0#0"0(4@49""cv::fastMalloc(unsigned long)", referenced from:300128250#2477#52#0(6@0"300128250#0#0#0#0#0"0(13@39"Cv::Mat::create(int, int, int)in main.o300128250#2529#46#0(6@0"300128250#0#0#0#0#0"0(4@51""cv::Mat::copyTo(cv::Mat&) const", referenced from:300128250#2575#54#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#2629#22#0(6@0"300128250#0#0#0#0#0"0(4@32""_cvShowImage", referenced from:300128250#2651#35#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#2686#119#0(6@0"300128250#0#0#0#0#0"0(4@42""_cvUpdateMotionHistory", referenced from:300128250#2805#45#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#2850#55#0(6@0"300128250#0#0#0#0#0"0(4@36""cv::waitKey(int)", referenced from:300128250#2905#39#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#2944#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#2966#22#0(6@0"300128250#0#0#0#0#0"0(4@93""cv::resize(cv::Mat const&, cv::Mat&, cv::Size_<int>, double, double, int)", referenced from:300128250#2988#96#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#3084#119#0(6@0"300128250#0#0#0#0#0"0(4@33""_cvGetSeqElem", referenced from:300128250#3203#36#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#3239#55#0(6@0"300128250#0#0#0#0#0"0(4@173""cv::CascadeClassifier::detectMultiScale(cv::Mat const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>)", referenced from:300128250#3294#176#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#3470#119#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#3589#119#0(6@0"300128250#0#0#0#0#0"0(4@41""_cvCalcMotionGradient", referenced from:300128250#3708#44#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#3752#55#0(6@0"300128250#0#0#0#0#0"0(4@30""_cvAbsDiff", referenced from:300128250#3807#33#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#3840#55#0(6@0"300128250#0#0#0#0#0"0(4@125""cv::imshow(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::Mat const&)", referenced from:300128250#3895#128#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#4023#119#0(6@0"300128250#0#0#0#0#0"0(4@56""cv::Mat::Mat(_IplImage const*, bool)", referenced from:300128250#4142#59#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#4201#22#0(6@0"300128250#0#0#0#0#0"0(4@35""_cvGetTickCount", referenced from:300128250#4223#38#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#4261#119#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#4380#119#0(6@0"300128250#0#0#0#0#0"0(4@31""_cvCvtColor", referenced from:300128250#4499#34#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#4533#55#0(6@0"300128250#0#0#0#0#0"0(4@44""_cvCalcGlobalOrientation", referenced from:300128250#4588#47#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#4635#55#0(6@0"300128250#0#0#0#0#0"0(4@37""_cvReleaseCapture", referenced from:300128250#4690#40#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#4730#22#0(6@0"300128250#0#0#0#0#0"0(4@126""cv::CascadeClassifier::load(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:300128250#4752#129#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#4881#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#4903#22#0(6@0"300128250#0#0#0#0#0"0(4@27""_cvLine", referenced from:300128250#4925#30#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#4955#55#0(6@0"300128250#0#0#0#0#0"0(4@56""cv::CascadeClassifier::empty() const", referenced from:300128250#5010#59#0(6@0"300128250#0#0#0#0#0"0(13@112"DetectAndDraw(cv::Mat&, _IplImage*, cv::CascadeClassifier&, cv::CascadeClassifier&, double, _IplImage*)in main.o300128250#5069#119#0(6@0"300128250#0#0#0#0#0"0(4@35""_cvReleaseImage", referenced from:300128250#5188#38#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5226#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5281#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5336#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5391#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5446#55#0(6@0"300128250#0#0#0#0#0"0(4@34""_cvCreateImage", referenced from:300128250#5501#37#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5538#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5593#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5648#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5703#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5758#55#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#5813#22#0(6@0"300128250#0#0#0#0#0"0(4@27""_cvNorm", referenced from:300128250#5835#30#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5865#55#0(6@0"300128250#0#0#0#0#0"0(4@34""_cvSetImageROI", referenced from:300128250#5920#37#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#5957#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#6012#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#6067#55#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#6122#55#0(6@0"300128250#0#0#0#0#0"0(4@35""_cvConvertScale", referenced from:300128250#6177#38#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#6215#55#0(6@0"300128250#0#0#0#0#0"0(4@62""cv::CascadeClassifier::CascadeClassifier()", referenced from:300128250#6270#65#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#6335#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#6357#22#0(6@0"300128250#0#0#0#0#0"0(4@29""_cvCircle", referenced from:300128250#6379#32#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#6411#55#0(6@0"300128250#0#0#0#0#0"0(4@51""cv::error(cv::Exception const&)", referenced from:300128250#6466#54#0(6@0"300128250#0#0#0#0#0"0(13@39"Cv::Mat::create(int, int, int)in main.o300128250#6520#46#0(6@0"300128250#0#0#0#0#0"0(13@60"Cv::Mat::Mat(cv::Mat const&, cv::Rect_<int> const&)in main.o300128250#6566#67#0(6@0"300128250#0#0#0#0#0"0(4@42""_cvCreateCameraCapture", referenced from:300128250#6633#45#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#6678#22#0(6@0"300128250#0#0#0#0#0"0(4@114""cv::imread(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:300128250#6700#117#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#6817#22#0(6@0"300128250#0#0#0#0#0"0(13@15"_main in main.o300128250#6839#22#0(6@0"300128250#0#0#0#0#0"0(4@28""_cvMerge", referenced from:300128250#6861#31#0(6@0"300128250#0#0#0#0#0"0(13@48"Update_mhi(_IplImage*, _IplImage*, int)in main.o300128250#6892#55#0(6@0"300128250#0#0#0#0#0"0(13@19"Symbol(s) not found300128250#6947#24#0(6@0"300128250#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status300128250#6971#36#0(6@0"300128250#0#0#0#0#0"0(0#0#0"8619154560#403"    cd /Users/wavs/Desktop/DemoHandy    /Developer/usr/bin/g++-4.2 -arch x86_64 -L/Users/wavs/Desktop/DemoHandy/build/Debug -F/Users/wavs/Desktop/DemoHandy/build/Debug -F/Users/wavs/Desktop/DemoHandy -filelist /Users/wavs/Desktop/DemoHandy/build/DemoHandy.build/Debug/DemoHandy.build/Objects-normal/x86_64/DemoHandy.LinkFileList -framework OpenCV -o /Users/wavs/Desktop/DemoHandy/build/Debug/DemoHandy1#
+
+CPBXCp build/Debug/OpenCV.framework /System/Library/Frameworks/OpenCV.framework
+s309114426.283953
+e309114427.525091
+r1
+xPBXCp
+xbuild/Debug/OpenCV.framework
+x/System/Library/Frameworks/OpenCV.framework
+lSLF07#2@48"Copy /System/Library/Frameworks/OpenCV.framework309114426#309114427#0(0"0(0#0#43"/System/Library/Frameworks/OpenCV.framework8647947232#369"    cd "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /System/Library/Frameworks/OpenCV.framework "/Users/wavs/Documents/Epita/ING2/S4_Semestre nº4/Projet_Home/Code/DemoHandy/build/Debug"0#
+
+CPBXCp build/Debug/OpenCV.framework OpenCV.framework
+r0
+
