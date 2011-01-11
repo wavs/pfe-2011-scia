@@ -16,7 +16,7 @@ const int MAX_RATIO     = 80;
 
 ////////////////////////////////////////////////////////////////////////////////
 
-void DetectAndDraw(IplImage* frame, Server& server)
+void DetectAndDraw(IplImage* frame, HandyServer& server)
 {
   double t = (double)cvGetTickCount();
 
@@ -68,7 +68,7 @@ void DetectAndDraw(IplImage* frame, Server& server)
         szy / (float) szx < MAX_RATIO)
       cvCircle(frame, center, 16, CV_RGB(255,0,0));
   }
-  server.SendPos(positions);
+  server.sendPos(positions);
 
   // Liberation de la memoire
   cvReleaseMemStorage(&storage);
@@ -87,7 +87,8 @@ void DetectAndDraw(IplImage* frame, Server& server)
 int main(int argc, const char* argv[])
 {
   // Init server
-  Server server;
+	HandyServer server;
+	
   if (!server.Init())
   {
     std::cout << "Error : Can't initialize server" << std::endl;
@@ -108,7 +109,7 @@ int main(int argc, const char* argv[])
   {
     IplImage* frame = cvQueryFrame(capture);
 
-    Mat frame_test = frame;
+	cv::Mat frame_test = frame;
     if(frame_test.empty())
     {
       std::cout << "Error : Empty frame" << std::endl;
