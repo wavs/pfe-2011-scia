@@ -4,6 +4,8 @@ import xml.dom.minidom as parser
 from Widget.SRView import SRView
 from Widget.SRImage import SRImage
 from Widget.SRLabel import SRLabel
+from Widget.SRMovable import SRMovable
+from Widget.SRFixe import SRFixe
 
 ## Class : WidgetLoader<br/>
 ## This object loads an xml file and creates the hierarchical structure of the associated widget interface.
@@ -96,6 +98,7 @@ class WidgetLoader:
 		tagAttr = view.getAttribute('tag')
 		backgroundColorAttr = view.getAttribute('backgroundColor')
 		className = view.getAttribute('class')
+		id = view.getAttribute('id')
 		
 		""" Convert objects """
 		(position, size) = self.getBounds(boundsAttr)
@@ -104,11 +107,11 @@ class WidgetLoader:
 		
 		viewElement = None
 		if (view.tagName == "SRView"):
-			viewElement = SRView(position, size, tag, father, backgroundColor, 0)
+			viewElement = SRView(position, size, tag, father, backgroundColor, id)
 		
 		if (view.tagName == "SRImageView"):
 			imageFilename = view.getAttribute('imageFilename')
-			viewElement = SRImage(position, size, tag, father, backgroundColor, 0, imageFilename)
+			viewElement = SRImage(position, size, tag, father, backgroundColor, id, imageFilename)
 		
 		if (view.tagName == "SRLabel"):
 			text = view.getAttribute('text')
@@ -117,8 +120,14 @@ class WidgetLoader:
 			fontSizeAttr = view.getAttribute('fontSize')
 			textColor = self.getColor(textColorAttr)
 			fontSize = int(fontSizeAttr)
-			viewElement = SRLabel(position, size, tag, father, backgroundColor, 0, text)
-		
+			viewElement = SRLabel(position, size, tag, father, backgroundColor, id, text)
+
+		if (view.tagName == "SRMovable"):
+			viewElement = SRMovable(position, size, tag, father, backgroundColor, id)
+			
+		if (view.tagName == "SRFixe"):
+			viewElement = SRFixe(position, size, tag, father, backgroundColor, id)	
+
 		subviews = self.handleSubviews(view, viewElement)
 		if (len(subviews) > 0):
 			for subview in subviews:

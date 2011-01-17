@@ -46,6 +46,7 @@ class MoveNotificationCenter (object):
 	## Return : no
 	##	
 	def sendNotification(self, notif):
+	#	notif.printInformation()
 		notif.setId(self.newNotifId())
 		self.notifications.addElt(notif)
 		self.ticketId += 1

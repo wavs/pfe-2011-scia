@@ -44,7 +44,9 @@ class GestureCenter:
 	##
 	def addNewInformation(self, l, camMod = False):
 		coord_center = CoordTransformer()
+		#coord_center.setInfo(640, 480, 400, 300)
 		coord_center.setInfo(640, 480, 900, 550)
+		
 		i = int(l[1])
 		typ = l[0]
 		x = -1.
@@ -68,7 +70,7 @@ class GestureCenter:
 				(sx, sy, sx0, sy0, t) = g.getCoordonate()
 				#g.printGesture()
 				d = self.distance(x, y, sx, sy)
-				print "D = ", d, "<", x, y, "> <", sx, sy, ">"
+				#print "D = ", d, "<", x, y, "> <", sx, sy, ">"
 				if (d <= maxd or maxd == -1) and d <= self.maxBruit:
 					maxd = d
 					lastG = g
