@@ -1,5 +1,7 @@
 import SRView as SRView
-
+import sys
+sys.path[:0] = ['../../']
+from GfCenter.GfCenter import *
 
 class SRLabel(SRView.SRView):
 	
@@ -14,8 +16,8 @@ class SRLabel(SRView.SRView):
 	    return locals()
 	text = property(**text())
 	
-	def __init__(self, pos, size, tag, container, color, id, text):
-		SRView.SRView.__init__(self, pos, size, tag, container, color, id)
+	def __init__(self, pos, size, tag, container, color, id, z, text):
+		SRView.SRView.__init__(self, pos, size, tag, container, color, id, z)
 		self.text = text
 	
 	def onMove(self, Notif):

@@ -66,6 +66,9 @@ class Gestures:
 		#if (label != "up") or (self.nbCurrentUp == self.nbUpMax and label == "up"):
 		self.moveLabel = label
 		self.history.append((x, y))
+		if x == -1 and y == -1:
+			(x, y) = self.history[0]
+		print "<", x, ", ", y, ">"
 		if len(self.history) >= 25:
 			self.history.pop()
 		self.isPress(x, y)
@@ -83,6 +86,7 @@ class Gestures:
 	##
 	def sendNotificationMove(self):
 		center = MoveNotificationCenter()
+		#self.g.printGraph()
 		if (self.g.getCurrentNode().getValue() != "trash"):
 			center.sendNotification(Notification(self.g.getCurrentNode().getValue(), self.coordx, self.coordy, self.coordxo, self.coordyo, self.id))
 
@@ -136,6 +140,7 @@ class Gestures:
 	def isUp(self):
 		if self.moveLabel == "up":
 			self.moveCondition = ""
+			
 
 	## Funtion isLongTime<br/>
 	## Arguments :no<br/>

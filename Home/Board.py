@@ -2,8 +2,43 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 from WidgetCenter.WidgetCenter import *
+from GfCenter.GfCenter import *
+import pygame
 
 ESCAPE = '\033'
+
+def drawTexturedBox(x, y, width, height, color, texture):
+	glEnable(GL_TEXTURE_2D)
+	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE)
+	glBindTexture(GL_TEXTURE_2D, texture)
+	if width == 0:
+		width = 1
+	if height == 0:
+		height = 1
+	
+	(r, g, b) = color
+	glColor3f(r, g, b)
+	
+	#if (color == "white"):
+	#	glColor3f(1.0, 1.0, 1.0)
+	#else:
+	#	glColor3f(0.8, 0.8, 0.8)
+	glBegin(GL_QUADS)
+	glTexCoord2f(0.0, 1.0)
+	glVertex3f(x, y , 0.0)	# Top Left
+	glTexCoord2f(1.0, 1.0)
+	glVertex3f(x + width, y, 0.0)	# Top Right
+	glTexCoord2f(1.0, 0.0)
+	glVertex3f(x + width, y + height, 0.0)	# Bottom Right
+	glTexCoord2f(0.0, 0.0)
+	glVertex3f(x , y + height, 0.0)	# Bot
+	# glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
+	# 	glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
+	# 	glVertex3f(x + (width/2.0), y + (height/2.0), 0.0)	# Bottom Right
+	# 	glVertex3f(x - (width/2.0), y + (height/2.0), 0.0)	# Bottom Left
+	glEnd()
+	glDisable(GL_TEXTURE_2D)
+	
 
 def drawBox(x, y, width, height, color, titleBar):
 	if width == 0:
@@ -18,10 +53,14 @@ def drawBox(x, y, width, height, color, titleBar):
 	#	glColor3f(0.8, 0.8, 0.8)
 	glColor3f(r, g, b)
 	glBegin(GL_QUADS)
-	glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
-	glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
-	glVertex3f(x + (width/2.0), y + (height/2.0), 0.0)	# Bottom Right
-	glVertex3f(x - (width/2.0), y + (height/2.0), 0.0)	# Bottom Left
+	glVertex3f(x, y , 0.0)	# Top Left
+	glVertex3f(x + width, y, 0.0)	# Top Right
+	glVertex3f(x + width, y + height, 0.0)	# Bottom Right
+	glVertex3f(x , y + height, 0.0)	# Bot
+	# glVertex3f(x - (width/2.0), y - (height/2.0), 0.0)	# Top Left
+	# 	glVertex3f(x + (width/2.0), y - (height/2.0), 0.0)	# Top Right
+	# 	glVertex3f(x + (width/2.0), y + (height/2.0), 0.0)	# Bottom Right
+	# 	glVertex3f(x - (width/2.0), y + (height/2.0), 0.0)	# Bottom Left
 	glEnd()
 	
 	if (titleBar):
@@ -102,11 +141,16 @@ class Board():
 			glFlush()
 			glutPostRedisplay()
 		
+		def init():
+			gf = GfCenter()
+			gf.loadTextureForWidgetRegistered()
+		
 		glutInit(())
 		glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_ALPHA | GLUT_DEPTH)
 		glutInitWindowSize(self.height, self.width)
 		glutInitWindowPosition(0, 0)
 		self.window = glutCreateWindow(self.title)
+		init()
 		glutDisplayFunc(drawGLScene)
 		glutIdleFunc(drawGLScene)
 		glutReshapeFunc(ReshapeGLScene)
@@ -118,7 +162,7 @@ class Board():
 		glutMainLoop()
 	
 	def InitGL(self):
-		glClearColor(1.0, 1.0, 1.0, 1.0)
+		glClearColor(0.0, 0.0, 0.0, 0.0)
 		glMatrixMode(GL_PROJECTION)
 		glLoadIdentity()
 		glOrtho(0, 800, 600, 0, 0, 1)

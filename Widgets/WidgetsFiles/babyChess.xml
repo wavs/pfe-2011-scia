@@ -1,0 +1,34 @@
+<SRView backgroundColor="0.000,0.000,0.000" class="" bounds="-10.000000,-10.000000:620.000000,620.000000" tag="1" id="0">
+<SRFixe backgroundColor="0.000,0.000,0.000" class="" bounds="-10.000000,-10.000000:620.000000,620.000000" tag="1" id="1">
+	<SRFixe backgroundColor="0.5,0.3,0.2" class="" bounds="0.000000,0.000000:200.000000,200.000000" tag="1" id="2">
+	</SRFixe>
+	<SRFixe backgroundColor="0.2,0.3,0.5" class="" bounds="200.000000,00.000000:200.000000,200.000000" tag="1" id="4">
+	</SRFixe>
+	<SRFixe backgroundColor="0.5,0.3,0.2" class="" bounds="400.000000,00.000000:200.000000,200.000000" tag="1" id="6">
+	</SRFixe>
+	<SRFixe backgroundColor="0.2,0.3,0.5" class="" bounds="00.000000,200.000000:200.000000,200.000000" tag="1" id="8">
+	</SRFixe>
+	<SRFixe backgroundColor="0.5,0.3,0.2" class="" bounds="200.000000,200.000000:200.000000,200.000000" tag="1" id="9">
+	</SRFixe>
+	<SRFixe backgroundColor="0.2,0.3,0.5" class="" bounds="400.000000,200.000000:200.000000,200.000000" tag="1" id="10">
+	</SRFixe>
+	<SRFixe backgroundColor="0.5,0.3,0.2" class="" bounds="000.000000,400.000000:200.000000,200.000000" tag="1" id="11">
+	</SRFixe>
+	<SRFixe backgroundColor="0.2,0.3,0.5" class="" bounds="200.000000,400.000000:200.000000,200.000000" tag="1" id="13">
+	</SRFixe>
+	<SRFixe backgroundColor="0.5,0.3,0.2" class="" bounds="400.000000,400.000000:200.000000,200.000000" tag="1" id="15">
+	</SRFixe>
+	<SRMovable backgroundColor="0.4,0.4,0.4" class="" bounds="50.000000,50.000000:100.000000,100.000000" tag="1" id="3">
+	</SRMovable>
+	<SRMovable backgroundColor="0.4,0.4,0.4" class="" bounds="250.000000,50.000000:100.000000,100.000000" tag="1" id="5">
+	</SRMovable>
+	<SRMovable backgroundColor="0.4,0.4,0.4" class="" bounds="450.000000,50.000000:100.000000,100.000000" tag="1" id="7">
+	</SRMovable>
+	<SRMovable backgroundColor="0.4,0.4,0.4" class="" bounds="50.000000,450.000000:100.000000,100.000000" tag="1" id="12">
+	</SRMovable>
+	<SRMovable backgroundColor="0.4,0.4,0.4" class="" bounds="250.000000,450.000000:100.000000,100.000000" tag="1" id="14">
+	</SRMovable>
+	<SRMovable backgroundColor="0.4,0.4,0.4" class="" bounds="450.000000,450.000000:100.000000,100.000000" tag="1" id="16">
+	</SRMovable>
+</SRFixe>
+</SRView>

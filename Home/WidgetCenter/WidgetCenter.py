@@ -1,4 +1,7 @@
 from Widget.SRView import *
+from Widget.SRButton import *
+from Widget.SRImage import *
+import glob
 
 ## Class : WidgetCenter<br/>
 ## This class handle the widgets
@@ -63,20 +66,25 @@ class WidgetCenter:
 	##
 	def examinNotif(self, notif):
 		widgetNotified = None
-		maxZ = 0
+		w = None
 		if not notif is None:
-			for widget in self.widgetList:
-				w = widget.isInsideView(notif.getxy()[0], notif.getxy()[1])
-				if not w is None:
-					print w.tag
+			for widget in reversed(self.widgetList):
+				if not widget is None:
+					w = widget.isInsideView(notif.getxy()[0], notif.getxy()[1])
 					return w
-				#else:
-				#	print "No view inside"
 		return None
 	
 	def displayOnGF(self):
+		listOfw = []
 		for w in self.widgetList:
+			if not w is None:
+				if w.isDisplay == True:
+					listOfw.append(w)
+		while (len(listOfw) > 0):
+			w = listOfw.pop(0)
 			w.display()
+			for subview in w.subView:
+				listOfw.append(subview)
 	
 	def getViewWithTag(self, tag):
 		for w in self.widgetList:
@@ -88,3 +96,23 @@ class WidgetCenter:
 	def returnToNormal(self):
 		for w in self.widgetList:
 			w.goBackColor()
+
+	def getWidgetMenu(self):
+		viewPrincipal = SRView.SRView((0,0), (800, 80), "Menu", None, (0.4, 0.4, 0.4), 1)
+		x = 1
+		i = 200
+		files = glob.glob("../Widgets/WidgetsIcons/*")
+		nb = 0;
+		for w in self.widgetList:
+			image = SRImage([x, 1], (50, 50), "Image"+files[nb], viewPrincipal, (0, 0, 0), i+100, files[nb])
+			viewPrincipal.addSubView(image)
+			def clickOnWidget():
+				w.changeDisplayMode()
+				w.printInformation()
+			b = SRButton([x , 52], (50, 28), "Button"+str(i), viewPrincipal, (1, 1, 1), i, clickOnWidget, w.tag)
+			i += 1
+			x += 52
+			nb += 1
+			viewPrincipal.addSubView(b)
+		viewPrincipal.setDisplay(True)
+		return viewPrincipal
